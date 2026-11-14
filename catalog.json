@@ -23,14 +23,17 @@
    "title": "Viaggio al centro della Terra",
    "author": "Jules Verne",
    "version": 1,
-   "status": "soon",
-   "blurb": "Un messaggio runico dentro un vecchio libro, un vulcano spento in Islanda, e una discesa dove nessuno è mai tornato.",
+   "status": "available",
+   "blurb": "Un messaggio in rune dentro un vecchio libro, un vulcano spento in Islanda, e una discesa dove nessuno è mai tornato.",
    "cover": {
     "bg": "#3A2A24",
     "ink": "#F1E4CF",
     "accent": "#D9822B",
+    "scene": "mare",
     "motif": "cratere"
-   }
+   },
+   "package": "centro.zip",
+   "size": 19786
   },
   {
    "id": "isola",
