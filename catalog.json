@@ -58,10 +58,10 @@
    "id": "giro",
    "title": "Il giro del mondo in 80 giorni",
    "author": "Jules Verne",
-   "version": 1,
+   "version": 2,
    "status": "available",
    "package": "giro.zip",
-   "size": 25568,
+   "size": 25567,
    "difficulty": "medio",
    "blurb": "Una scommessa al Reform Club, ventimila sterline, ottanta giorni per tornare. Tu sei Passepartout, e il calendario è il tuo nemico.",
    "cover": {
