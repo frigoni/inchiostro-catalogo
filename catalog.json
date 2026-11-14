@@ -5,10 +5,10 @@
    "id": "musgrave",
    "title": "Il rituale dei Musgrave",
    "author": "Arthur Conan Doyle",
-   "version": 2,
+   "version": 3,
    "status": "available",
    "package": "musgrave.zip",
-   "size": 21773,
+   "size": 21867,
    "blurb": "Un maggiordomo sparito, una cameriera scomparsa, e una filastrocca di famiglia che nessuno ha mai preso sul serio. Il primo vero caso di un giovane investigatore.",
    "cover": {
     "bg": "#2C2A35",
@@ -16,13 +16,14 @@
     "accent": "#C9A13B",
     "scene": "prato",
     "motif": "quercia"
-   }
+   },
+   "difficulty": "medio"
   },
   {
    "id": "centro",
    "title": "Viaggio al centro della Terra",
    "author": "Jules Verne",
-   "version": 2,
+   "version": 3,
    "status": "available",
    "blurb": "Un messaggio in rune dentro un vecchio libro, un vulcano spento in Islanda, e una discesa dove nessuno è mai tornato.",
    "cover": {
@@ -33,21 +34,25 @@
     "motif": "cratere"
    },
    "package": "centro.zip",
-   "size": 20809
+   "size": 20904,
+   "difficulty": "facile"
   },
   {
    "id": "isola",
    "title": "L’isola del tesoro",
    "author": "Robert Louis Stevenson",
    "version": 1,
-   "status": "soon",
-   "blurb": "Una mappa nel baule di un vecchio pirata, una goletta, un cuoco con una gamba sola. Fidati di chi vuoi.",
+   "status": "available",
+   "blurb": "Un baule con le iniziali di un pirata, una mappa con tre croci rosse, e un cuoco con una gamba sola che sorride sempre. Il libro più difficile della biblioteca.",
    "cover": {
-    "bg": "#1F3A3D",
-    "ink": "#F1E9D6",
-    "accent": "#C8553D",
+    "bg": "#24343A",
+    "ink": "#EFE6D0",
+    "accent": "#C9A13B",
     "motif": "mappa"
-   }
+   },
+   "package": "isola.zip",
+   "size": 25013,
+   "difficulty": "difficile"
   }
  ]
 }
