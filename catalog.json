@@ -5,10 +5,10 @@
    "id": "musgrave",
    "title": "Il rituale dei Musgrave",
    "author": "Arthur Conan Doyle",
-   "version": 1,
+   "version": 2,
    "status": "available",
    "package": "musgrave.zip",
-   "size": 20790,
+   "size": 21773,
    "blurb": "Un maggiordomo sparito, una cameriera scomparsa, e una filastrocca di famiglia che nessuno ha mai preso sul serio. Il primo vero caso di un giovane investigatore.",
    "cover": {
     "bg": "#2C2A35",
@@ -22,7 +22,7 @@
    "id": "centro",
    "title": "Viaggio al centro della Terra",
    "author": "Jules Verne",
-   "version": 1,
+   "version": 2,
    "status": "available",
    "blurb": "Un messaggio in rune dentro un vecchio libro, un vulcano spento in Islanda, e una discesa dove nessuno è mai tornato.",
    "cover": {
@@ -33,7 +33,7 @@
     "motif": "cratere"
    },
    "package": "centro.zip",
-   "size": 19786
+   "size": 20809
   },
   {
    "id": "isola",
