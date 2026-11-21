@@ -23,7 +23,7 @@
    "id": "centro",
    "title": "Viaggio al centro della Terra",
    "author": "Jules Verne",
-   "version": 3,
+   "version": 4,
    "status": "available",
    "blurb": "Un messaggio in rune dentro un vecchio libro, un vulcano spento in Islanda, e una discesa dove nessuno è mai tornato.",
    "cover": {
@@ -34,14 +34,14 @@
     "motif": "cratere"
    },
    "package": "centro.zip",
-   "size": 20904,
+   "size": 20915,
    "difficulty": "facile"
   },
   {
    "id": "isola",
    "title": "L’isola del tesoro",
    "author": "Robert Louis Stevenson",
-   "version": 1,
+   "version": 2,
    "status": "available",
    "blurb": "Un baule con le iniziali di un pirata, una mappa con tre croci rosse, e un cuoco con una gamba sola che sorride sempre. Il libro più difficile della biblioteca.",
    "cover": {
@@ -51,7 +51,7 @@
     "motif": "mappa"
    },
    "package": "isola.zip",
-   "size": 25013,
+   "size": 25025,
    "difficulty": "difficile"
   },
   {
@@ -75,10 +75,10 @@
    "id": "montecristo",
    "title": "Il conte di Montecristo",
    "author": "Alexandre Dumas",
-   "version": 1,
+   "version": 2,
    "status": "available",
    "package": "montecristo.zip",
-   "size": 1256584,
+   "size": 1256617,
    "voice": {"package": "montecristo_voce.zip", "size": 7491690, "version": 1},
    "difficulty": "medio",
    "blurb": "Un marinaio innocente, una lettera mai aperta, quattordici anni nel castello d’If. Un vecchio abate che scava, un testamento bruciato e una sola via d’uscita: il sacco dei morti. Edizione illustrata.",
