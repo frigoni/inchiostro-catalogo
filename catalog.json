@@ -2,6 +2,16 @@
  "format": 1,
  "books": [
   {
+   "id": "scarabeo", 
+   "title": "Lo scarabeo d’oro", 
+   "author": "Edgar Allan Poe", 
+   "version": 5,
+   "difficulty": "medio", 
+   "status": "available", 
+   "package": "scarabeo.zip", 
+   "size": 32266
+  },
+  {
    "id": "musgrave",
    "title": "Il rituale dei Musgrave",
    "author": "Arthur Conan Doyle",
