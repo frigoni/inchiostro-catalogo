@@ -2,25 +2,33 @@
  "format": 1,
  "books": [
   {
-   "id": "scarabeo", 
-   "title": "Lo scarabeo d’oro", 
-   "author": "Edgar Allan Poe", 
+   "id": "scarabeo",
+   "title": "Lo scarabeo d’oro",
+   "author": "Edgar Allan Poe",
    "version": 6,
-   "difficulty": "medio", 
-   "status": "available", 
-   "package": "scarabeo.zip", 
+   "difficulty": "medio",
+   "status": "available",
+   "package": "scarabeo.zip",
    "size": 32297,
-   "voice": {"package": "scarabeo_voce.zip", "size": 10225365, "version": 1}
+   "voice": {
+    "package": "scarabeo_voce.zip",
+    "size": 10225365,
+    "version": 1
+   }
   },
   {
    "id": "musgrave",
    "title": "Il rituale dei Musgrave",
    "author": "Arthur Conan Doyle",
-   "version": 4,
+   "version": 5,
    "status": "available",
    "package": "musgrave.zip",
-   "size": 22418,
-   "voice": {"package": "musgrave_voce.zip", "size": 6332592, "version": 1},
+   "size": 22456,
+   "voice": {
+    "package": "musgrave_voce.zip",
+    "size": 6332592,
+    "version": 1
+   },
    "blurb": "Un maggiordomo sparito, una cameriera scomparsa, e una filastrocca di famiglia che nessuno ha mai preso sul serio. Il primo vero caso di un giovane investigatore.",
    "cover": {
     "bg": "#2C2A35",
@@ -35,7 +43,7 @@
    "id": "centro",
    "title": "Viaggio al centro della Terra",
    "author": "Jules Verne",
-   "version": 4,
+   "version": 5,
    "status": "available",
    "blurb": "Un messaggio in rune dentro un vecchio libro, un vulcano spento in Islanda, e una discesa dove nessuno è mai tornato.",
    "cover": {
@@ -46,8 +54,12 @@
     "motif": "cratere"
    },
    "package": "centro.zip",
-   "size": 20915,
-   "voice": {"package": "centro_voce.zip", "size": 6390375, "version": 1},
+   "size": 20968,
+   "voice": {
+    "package": "centro_voce.zip",
+    "size": 6390375,
+    "version": 1
+   },
    "difficulty": "facile"
   },
   {
@@ -65,18 +77,26 @@
    },
    "package": "isola.zip",
    "size": 25025,
-    "voice": {"package": "isola_voce.zip", "size": 8487621, "version": 1},
+   "voice": {
+    "package": "isola_voce.zip",
+    "size": 8487621,
+    "version": 1
+   },
    "difficulty": "difficile"
   },
   {
    "id": "giro",
    "title": "Il giro del mondo in 80 giorni",
    "author": "Jules Verne",
-   "version": 2,
+   "version": 3,
    "status": "available",
    "package": "giro.zip",
-   "size": 25567,
-   "voice": {"package": "giro_voce.zip", "size": 9593757, "version": 1},
+   "size": 25704,
+   "voice": {
+    "package": "giro_voce.zip",
+    "size": 9593757,
+    "version": 1
+   },
    "difficulty": "medio",
    "blurb": "Una scommessa al Reform Club, ventimila sterline, ottanta giorni per tornare. Tu sei Passepartout, e il calendario è il tuo nemico.",
    "cover": {
@@ -86,7 +106,7 @@
     "motif": "globo"
    }
   },
-    {
+  {
    "id": "montecristo",
    "title": "Il conte di Montecristo",
    "author": "Alexandre Dumas",
@@ -94,7 +114,11 @@
    "status": "available",
    "package": "montecristo.zip",
    "size": 1256617,
-   "voice": {"package": "montecristo_voce.zip", "size": 7491690, "version": 1},
+   "voice": {
+    "package": "montecristo_voce.zip",
+    "size": 7491690,
+    "version": 1
+   },
    "difficulty": "medio",
    "blurb": "Un marinaio innocente, una lettera mai aperta, quattordici anni nel castello d’If. Un vecchio abate che scava, un testamento bruciato e una sola via d’uscita: il sacco dei morti. Edizione illustrata.",
    "cover": {
