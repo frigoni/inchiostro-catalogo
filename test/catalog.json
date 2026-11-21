@@ -79,6 +79,7 @@
    "status": "available",
    "package": "montecristo.zip",
    "size": 1256584,
+   "voice": {"package": "montecristo_voce.zip", "size": 6123456, "version": 1},
    "difficulty": "medio",
    "blurb": "Un marinaio innocente, una lettera mai aperta, quattordici anni nel castello d’If. Un vecchio abate che scava, un testamento bruciato e una sola via d’uscita: il sacco dei morti. Edizione illustrata.",
    "cover": {
