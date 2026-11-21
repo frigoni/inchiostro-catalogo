@@ -24,11 +24,7 @@
    "status": "available",
    "package": "musgrave.zip",
    "size": 22456,
-   "voice": {
-    "package": "musgrave_voce.zip",
-    "size": 6332592,
-    "version": 1
-   },
+  "voice": {"package": "musgrave_voce.zip", "size": 6353439, "version": 2},
    "blurb": "Un maggiordomo sparito, una cameriera scomparsa, e una filastrocca di famiglia che nessuno ha mai preso sul serio. Il primo vero caso di un giovane investigatore.",
    "cover": {
     "bg": "#2C2A35",
@@ -55,11 +51,7 @@
    },
    "package": "centro.zip",
    "size": 20968,
-   "voice": {
-    "package": "centro_voce.zip",
-    "size": 6390375,
-    "version": 1
-   },
+   "voice": {"package": "centro_voce.zip", "size": 6417942, "version": 2},
    "difficulty": "facile"
   },
   {
@@ -92,11 +84,7 @@
    "status": "available",
    "package": "giro.zip",
    "size": 25704,
-   "voice": {
-    "package": "giro_voce.zip",
-    "size": 9593757,
-    "version": 1
-   },
+   "voice": {"package": "giro_voce.zip", "size": 9696648, "version": 2},
    "difficulty": "medio",
    "blurb": "Una scommessa al Reform Club, ventimila sterline, ottanta giorni per tornare. Tu sei Passepartout, e il calendario è il tuo nemico.",
    "cover": {
