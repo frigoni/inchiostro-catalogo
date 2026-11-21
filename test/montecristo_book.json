@@ -1,0 +1,4619 @@
+{
+"format": 1,
+"id": "montecristo",
+"version": 1,
+"difficulty": "medio",
+"edition": "illustrata",
+"title": "Il conte di Montecristo",
+"author": "Alexandre Dumas",
+"year": 1844,
+"source": {
+"title": "Le Comte de Monte-Cristo",
+"author": "Alexandre Dumas",
+"year": 1844,
+"first": "a puntate sul «Journal des débats», 1844–1846"
+},
+"blurb": "Un marinaio innocente, una lettera mai aperta, quattordici anni nel castello d’If. Un vecchio abate che scava, un testamento bruciato e una sola via d’uscita: il sacco dei morti.",
+"cover": {
+"bg": "#1E1A17",
+"ink": "#EFE6D0",
+"accent": "#C9A13B",
+"scene": "cella",
+"motif": "cratere"
+},
+"start": "porto",
+"vars": {
+"captain": false,
+"letter": false,
+"arrested": false,
+"letterGiven": false,
+"years": 0,
+"scratch": false,
+"knocked": false,
+"shard": false,
+"dug": false,
+"handle": false,
+"tunnel": false,
+"named": false,
+"fariaTold": false,
+"spadaSolved": false,
+"fariaDead": false,
+"knife": false,
+"escaped": false,
+"free": false,
+"counted": false,
+"opened": false,
+"ended": false
+},
+"discoveries": [
+"La lettera dell’Elba",
+"L’arresto",
+"Il sostituto procuratore",
+"I colpi nel muro",
+"L’abate Faria",
+"I nomi dei traditori",
+"Aspettare e sperare",
+"Il cimitero del castello d’If",
+"Il tesoro di Montecristo"
+],
+"progress": [
+"letter",
+"arrested",
+"letterGiven",
+"knocked",
+"tunnel",
+"named",
+"fariaDead",
+"free",
+"ended"
+],
+"intro": [
+{
+"say": "Il conte di Montecristo",
+"cls": "title"
+},
+{
+"say": "Ti chiami Edmond Dantès. Hai diciannove anni, sei marinaio dalla nascita, e oggi è il giorno più felice della tua vita: riporti a casa il Pharaon, domani sarai capitano, e dopodomani sposerai Mercedes. Tra poche ore perderai tutto.",
+"cls": "intro"
+}
+],
+"endedAllow": [
+"look",
+"inv",
+"help",
+"think"
+],
+"endedText": "La prima parte è finita. Puoi ricominciare dal menu in alto.",
+"persons": [
+"morrel",
+"danglars",
+"mercedes",
+"fernand",
+"caderousse",
+"villefort",
+"carceriere",
+"faria",
+"contrabbandieri",
+"gendarmi"
+],
+"lang": {
+"stop": [
+"il",
+"lo",
+"la",
+"i",
+"gli",
+"le",
+"l",
+"un",
+"uno",
+"una",
+"al",
+"allo",
+"alla",
+"ai",
+"agli",
+"alle",
+"nel",
+"nello",
+"nella",
+"nei",
+"negli",
+"nelle",
+"sul",
+"sullo",
+"sulla",
+"sui",
+"sugli",
+"sulle",
+"col",
+"con",
+"a",
+"ad",
+"di",
+"da",
+"dal",
+"dallo",
+"dalla",
+"in",
+"su",
+"per",
+"verso",
+"tra",
+"fra",
+"e",
+"poi",
+"dentro",
+"sopra",
+"sotto",
+"mio",
+"mia",
+"suo",
+"sua",
+"quel",
+"quella",
+"quello",
+"questo",
+"questa",
+"che",
+"a",
+"di",
+"da",
+"del",
+"dello",
+"della",
+"dei",
+"degli",
+"delle",
+"dal",
+"dalla",
+"per",
+"che",
+"mi",
+"me",
+"ti",
+"te",
+"su",
+"in",
+"e",
+"piedi",
+"passi"
+],
+"verbs": {
+"look": [
+"guarda",
+"osserva",
+"esamina",
+"ispeziona",
+"leggi",
+"x",
+"l",
+"descrivi",
+"controlla",
+"studia",
+"rileggi"
+],
+"take": [
+"prendi",
+"raccogli",
+"afferra",
+"piglia",
+"stacca",
+"recupera"
+],
+"go": [
+"vai",
+"va",
+"cammina",
+"torna",
+"raggiungi",
+"corri",
+"dirigiti",
+"entra",
+"esci",
+"attraversa",
+"scendi"
+],
+"climb": [
+"sali"
+],
+"lift": [
+"solleva",
+"alza",
+"sposta",
+"apri",
+"tira",
+"forza"
+],
+"measure": [
+"misura",
+"calcola",
+"conta",
+"traccia",
+"segui",
+"pianta"
+],
+"clean": [
+"pulisci",
+"strofina",
+"lava",
+"gratta",
+"lucida"
+],
+"give": [
+"mostra",
+"dai",
+"porgi",
+"consegna"
+],
+"talk": [
+"parla",
+"chiedi",
+"domanda",
+"interroga",
+"di",
+"dici",
+"racconta",
+"spiega",
+"saluta"
+],
+"follow": [
+"seguimi",
+"vieni",
+"accompagnami"
+],
+"use": [
+"usa",
+"adopera",
+"infila",
+"metti",
+"inserisci"
+],
+"inv": [
+"inventario",
+"i",
+"inv"
+],
+"think": [
+"pensa",
+"rifletti",
+"ragiona",
+"deduci",
+"suggerimento",
+"indizio"
+],
+"help": [
+"aiuto",
+"comandi",
+"help"
+],
+"wait": [
+"aspetta",
+"attendi",
+"z",
+"dormi"
+],
+"break": [
+"rompi",
+"spezza",
+"spacca",
+"frantuma"
+],
+"dig": [
+"scava",
+"raschia",
+"gratta"
+],
+"knock": [
+"bussa",
+"batti",
+"picchia",
+"rispondi"
+],
+"cut": [
+"taglia",
+"squarcia",
+"apri il sacco"
+],
+"swim": [
+"nuota"
+],
+"count": [
+"conta",
+"misura"
+],
+"listen": [
+"ascolta",
+"origlia",
+"senti"
+],
+"drink": [
+"brinda",
+"bevi"
+]
+},
+"prefixes": [
+"prendi",
+"guarda",
+"solleva",
+"alza",
+"misura",
+"pulisci",
+"mostra",
+"parla",
+"chiedi",
+"esamina",
+"leggi",
+"usa",
+"conta",
+"segui",
+"rompi",
+"scava",
+"bussa",
+"batti",
+"taglia",
+"nuota",
+"conta",
+"brinda",
+"ascolta"
+],
+"nouns": {
+"morrel": [
+"morrel",
+"armatore",
+"padrone"
+],
+"pharaon": [
+"pharaon",
+"nave",
+"veliero",
+"brigantino"
+],
+"lettera": [
+"lettera",
+"busta",
+"plico",
+"lettere"
+],
+"danglars": [
+"danglars",
+"contabile"
+],
+"mercedes": [
+"mercedes",
+"mercedès",
+"fidanzata",
+"sposa"
+],
+"fernand": [
+"fernand",
+"cugino",
+"catalano"
+],
+"caderousse": [
+"caderousse",
+"sarto",
+"vicino"
+],
+"gendarmi": [
+"gendarmi",
+"gendarme",
+"soldati",
+"commissario",
+"polizia"
+],
+"villefort": [
+"villefort",
+"procuratore",
+"magistrato",
+"sostituto"
+],
+"fuoco": [
+"fuoco",
+"camino",
+"brace",
+"fiamma"
+],
+"muro": [
+"muro",
+"parete",
+"pietre",
+"pietra",
+"segni",
+"tacche"
+],
+"brocca": [
+"brocca",
+"coccio",
+"cocci",
+"caraffa"
+],
+"casseruola": [
+"casseruola",
+"pentola",
+"manico",
+"minestra",
+"zuppa"
+],
+"carceriere": [
+"carceriere",
+"guardia",
+"secondino"
+],
+"finestra": [
+"finestra",
+"feritoia",
+"inferriata",
+"sbarre",
+"luce"
+],
+"letto": [
+"letto",
+"pagliericcio",
+"branda"
+],
+"buco": [
+"buco",
+"tunnel",
+"galleria",
+"passaggio",
+"cunicolo"
+],
+"faria": [
+"faria",
+"abate",
+"prete",
+"vecchio",
+"pazzo",
+"amico"
+],
+"attrezzi": [
+"attrezzi",
+"scalpello",
+"coltello",
+"lama",
+"penne",
+"inchiostro",
+"camicie",
+"strumenti"
+],
+"testamento": [
+"testamento",
+"foglio",
+"carta",
+"spada",
+"cardinale",
+"bruciato",
+"messale"
+],
+"sacco": [
+"sacco",
+"tela",
+"lenzuolo",
+"sudario"
+],
+"mare": [
+"mare",
+"onde",
+"acqua",
+"tiboulen"
+],
+"piccone": [
+"piccone",
+"zappa",
+"leva"
+],
+"rocce": [
+"rocce",
+"roccia",
+"scogli",
+"cala",
+"masso",
+"macigno"
+],
+"forziere": [
+"forziere",
+"cassa",
+"tesoro",
+"oro",
+"diamanti",
+"gioielli"
+],
+"contrabbandieri": [
+"contrabbandieri",
+"marinai",
+"jacopo",
+"barca",
+"tartana",
+"amélie",
+"amelie"
+]
+},
+"alias": [
+{
+"w": "pietra",
+"if": "loc=='isola'",
+"to": "rocce"
+},
+{
+"w": "lettera",
+"if": "loc=='faria'",
+"to": "testamento"
+}
+],
+"dirs": {
+"n": "nord",
+"nord": "nord",
+"s": "sud",
+"sud": "sud",
+"e": "est",
+"est": "est",
+"o": "ovest",
+"ovest": "ovest",
+"w": "ovest",
+"su": "su",
+"giu": "giu",
+"sopra": "su",
+"sotto": "giu"
+},
+"dirNames": {
+"nord": "nord",
+"sud": "sud",
+"est": "est",
+"ovest": "ovest",
+"su": "su",
+"giu": "giù"
+},
+"downWord": "scendi",
+"enterWord": "entra",
+"exitWord": "esci",
+"placeWords": {
+"porto": "porto",
+"marsiglia": "porto",
+"riserva": "riserva",
+"cella": "cella",
+"faria": "faria",
+"isola": "isola",
+"grotta": "grotta"
+},
+"texts": {
+"notHere": "Qui non vedi niente del genere.",
+"unknown": "Non capisco «{raw}». Prova con frasi brevi: guarda, prendi la canna, vai a nord, chiedi a Musgrave dell’olmo. Scrivi aiuto per altri esempi.",
+"noDir": "Da quella parte non si va. {exits}",
+"whereTo": "Dove vuoi andare? {exits}",
+"already": "Sei già qui.",
+"exits": "Uscite: {list}.",
+"pass": "Passi per: {place}.",
+"inside": "Sei già dentro.",
+"noInside": "Qui non c’è niente in cui entrare.",
+"outside": "Sei già all’aperto.",
+"invEmpty": "Hai le mani vuote.",
+"invPre": "Hai con te: ",
+"found": "Scoperta: {name}.",
+"wait": "Aspetti. Il tempo, qui, non ha fretta.",
+"noReach": "Da qui non sai come arrivarci.",
+"default": "Non serve a niente, per ora."
+},
+"help": "Scrivi frasi brevi in italiano. Per esempio: guarda, leggi il rituale, prendi la canna, vai a sud, sali, scendi, parla con Musgrave, chiedi a Musgrave dell’olmo, misura l’ombra, inventario. Se sei bloccato, scrivi pensa."
+},
+"places": {
+"porto": {
+"name": "Il porto di Marsiglia",
+"move": "A Marsiglia",
+"exits": [
+{
+"dir": "est",
+"to": "riserva",
+"if": "captain && letter",
+"no": "{?!captain:Il signor Morrel ti aspetta sul molo: prima il rapporto all’armatore.}{?captain && !letter:Prima di correre da Mercedes, ricordati della lettera che porti in tasca. Il capitano Leclère, morendo, te l’ha affidata.}"
+}
+],
+"text": [
+{
+"t": "Marsiglia, 24 febbraio 1815. Il Pharaon entra in porto con le vele ammainate a metà: in mare è morto il capitano Leclère. Sul ponte, a dare gli ordini, ci sei tu, Edmond Dantès, diciannove anni, primo ufficiale."
+},
+{
+"t": "Sul molo, l’armatore, il signor Morrel, aspetta con il cappello in mano. Poco più in là, il contabile Danglars ti guarda con un sorriso che non arriva agli occhi.",
+"if": "!captain"
+},
+{
+"t": "Il signor Morrel ti ha appena promesso il comando del Pharaon. A est, oltre il porto, il villaggio dei Catalani e la locanda della Riserva: Mercedes ti aspetta.",
+"if": "captain"
+}
+]
+},
+"riserva": {
+"name": "La festa alla Riserva",
+"move": "Alla Riserva",
+"exits": [],
+"text": [
+{
+"t": "La locanda della Riserva, sulla riva. Una lunga tavola sotto il pergolato, tovaglie bianche, vino di Provenza, bouillabaisse. È la tua festa di fidanzamento. Accanto a te Mercedes, la ragazza più bella dei Catalani, con un fiore nei capelli neri."
+},
+{
+"t": "Intorno alla tavola: tuo padre, il signor Morrel, il vicino Caderousse già un po’ brillo, Danglars. In fondo, in piedi, pallido, Fernand, il cugino di Mercedes, che l’ha chiesta in sposa prima di te."
+}
+]
+},
+"villefort": {
+"name": "Lo studio del sostituto procuratore",
+"move": "Dal procuratore",
+"inside": true,
+"exits": [],
+"text": [
+{
+"t": "Il palazzo di giustizia, di notte. Uno studio con le tende di velluto, una scrivania ingombra, un fuoco acceso nel camino. Dietro la scrivania, il sostituto procuratore del re, il signor de Villefort: ventisette anni, elegante, gelido."
+},
+{
+"t": "Sulla scrivania c’è la denuncia anonima: «Edmond Dantès, primo ufficiale del Pharaon, è un agente bonapartista. Porta una lettera dall’isola d’Elba al comitato di Parigi.»"
+}
+]
+},
+"cella": {
+"name": "La cella 34",
+"move": "Nella cella",
+"inside": true,
+"exits": [
+{
+"dir": "ovest",
+"to": "faria",
+"if": "tunnel",
+"no": "Il muro è di pietra spessa un metro. Dall’altra parte c’è il mare, o un’altra cella, o niente."
+}
+],
+"text": [
+{
+"t": "Una cella del castello d’If, scavata nella roccia sotto il livello del mare. Una finestra alta, stretta, con tre sbarre. Un pagliericcio, una brocca, una sedia. Ogni mattina il carceriere porta il pane e una casseruola di minestra."
+},
+{
+"t": "Anno {years} di prigionia. Sul muro, accanto al letto, hai inciso una tacca per ogni giorno. Poi hai smesso di contarli.",
+"if": "years>0"
+},
+{
+"t": "Dietro il letto, nel muro, si apre il cunicolo che porta alla cella di Faria. Lo nascondi con il pagliericcio.",
+"if": "tunnel"
+}
+]
+},
+"faria": {
+"name": "La cella dell’abate Faria",
+"move": "Da Faria",
+"inside": true,
+"exits": [
+{
+"dir": "est",
+"to": "cella"
+}
+],
+"text": [
+{
+"t": "La cella dell’abate Faria, la numero 27. Su un tavolo di fortuna, la sua «biblioteca»: libri scritti a memoria su strisce di camicia, con penne fatte di cartilagini di pesce e inchiostro di fuliggine. Nascosti in un buco del pavimento, i suoi attrezzi: uno scalpello, un coltello, una scala di corda.",
+"if": "!fariaDead"
+},
+{
+"t": "L’abate Faria, magro, la barba bianca, gli occhi vivissimi, ti guarda come si guarda un figlio.",
+"if": "!fariaDead"
+},
+{
+"t": "Faria è disteso sul letto, immobile, il viso sereno. Il carceriere l’ha trovato stamattina; stanotte verranno a prenderlo, cucito nel sacco dei morti.",
+"if": "fariaDead && !escaped"
+}
+]
+},
+"mare": {
+"name": "Il mare, di notte",
+"move": "In mare",
+"exits": [
+{
+"dir": "est",
+"to": "isola",
+"if": "free",
+"no": "Sei ancora chiuso nel sacco, e il mare ti trascina giù."
+}
+],
+"text": [
+{
+"t": "Il sacco vola nel buio, e il mare ti inghiotte. Acqua gelida, nera, una palla di ferro legata ai piedi che ti tira verso il fondo. Il cimitero del castello d’If è il mare.",
+"if": "!free"
+},
+{
+"t": "Sei libero, in mezzo al mare. Dietro di te il castello d’If, nero sullo scoglio, con una sola luce accesa. Davanti a te, lontanissima, l’isola di Tiboulen. Nuoti.",
+"if": "free"
+}
+]
+},
+"isola": {
+"name": "L’isola di Montecristo",
+"move": "A Montecristo",
+"exits": [
+{
+"dir": "giu",
+"to": "grotta",
+"if": "opened",
+"no": "Rocce, cespugli di mirto, capre selvatiche. Il tesoro, se c’è, è nascosto bene."
+}
+],
+"text": [
+{
+"t": "Montecristo: uno scoglio di granito in mezzo al mare, disabitato, con le capre selvatiche e i gabbiani. Sei arrivato con una tartana di contrabbandieri, che ti credono un marinaio naufrago. Hai finto di cadere e di ferirti a una gamba: ti hanno lasciato qui per qualche giorno, con il fucile, viveri e un piccone."
+},
+{
+"t": "Lungo la costa, una piccola cala. Più su, una fila di rocce grigie che salgono verso l’interno dell’isola.",
+"if": "!opened"
+},
+{
+"t": "Hai fatto leva sulla roccia: sotto c’è una lastra quadrata con un anello di ferro, e sotto la lastra una scala che scende nel buio.",
+"if": "opened"
+}
+]
+},
+"grotta": {
+"name": "La grotta del cardinale Spada",
+"move": "Nella grotta",
+"inside": true,
+"exits": [
+{
+"dir": "su",
+"to": "isola"
+}
+],
+"text": [
+{
+"t": "Una grotta asciutta, che odora di chiuso e di secoli. La luce della torcia scivola sulle pareti. In fondo, nella seconda grotta, il piccone suona a vuoto: dietro la pietra c’è un forziere di quercia rinforzato di ferro.",
+"if": "!ended"
+},
+{
+"t": "Il forziere è aperto. La torcia trema nella tua mano.",
+"if": "ended"
+}
+]
+}
+},
+"onEnter": [],
+"edges": [],
+"travel": [
+{
+"from": "porto",
+"to": "riserva",
+"t": "Corri da tuo padre, poi al villaggio dei Catalani, poi alla Riserva, dove è tutto pronto. È il 28 febbraio 1815."
+},
+{
+"from": "faria",
+"to": "mare",
+"t": "Il sacco vola. Un attimo di vuoto, poi il mare."
+},
+{
+"from": "mare",
+"to": "isola",
+"t": "Nuoti per ore, fino all’isola di Tiboulen. All’alba ti raccoglie una tartana di contrabbandieri, la Jeune-Amélie. Ti credono un marinaio naufrago. Tre mesi dopo, finalmente, le loro rotte passano vicino a Montecristo."
+}
+],
+"lists": {},
+"objects": {
+"morrel": {
+"name": "il signor Morrel",
+"here": "loc=='porto' || loc=='riserva'",
+"look": [
+{
+"t": "Il signor Morrel: buono, onesto, un po’ ingenuo. Ti vuole bene come a un figlio."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"pharaon": {
+"name": "il Pharaon",
+"here": "loc=='porto'",
+"look": [
+{
+"t": "Il tuo veliero, a tre alberi, con lo scafo appena ridipinto. Torna da Smirne, Trieste e Napoli, con una sosta che nessuno conosce: l’isola d’Elba."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"lettera": {
+"name": "la lettera",
+"here": "!letterGiven && (loc=='porto' || loc=='riserva' || loc=='villefort')",
+"look": [
+{
+"t": "Una busta sigillata, senza mittente. Sopra c’è scritto: «Al signor Noirtier, rue Coq-Héron, Parigi». Te l’ha consegnata all’isola d’Elba il Gran Maresciallo Bertrand, perché il capitano Leclère, morendo, ti aveva chiesto di portarla. Non sai cosa c’è dentro. Non hai mai pensato di aprirla."
+}
+]
+},
+"danglars": {
+"name": "Danglars",
+"here": "loc=='porto' || loc=='riserva'",
+"look": [
+{
+"t": "Danglars, il contabile del Pharaon: venticinque anni, freddo, servile con i superiori e duro con i marinai. Voleva il comando della nave."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"mercedes": {
+"name": "Mercedes",
+"here": "loc=='riserva'",
+"look": [
+{
+"t": "Mercedes, diciassette anni, occhi neri come le more, la pelle bruna dei Catalani. Domani sarà tua moglie."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"fernand": {
+"name": "Fernand",
+"here": "loc=='riserva'",
+"look": [
+{
+"t": "Fernand Mondego, pescatore catalano: alto, scuro, le mani che si stringono e si aprono. Ama Mercedes da quando erano bambini."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"caderousse": {
+"name": "Caderousse",
+"here": "loc=='riserva'",
+"look": [
+{
+"t": "Caderousse, il sarto vicino di casa di tuo padre: grasso, rosso, chiacchierone, invidioso. Ha bevuto troppo, e ogni tanto guarda Danglars e Fernand con aria colpevole."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"gendarmi": {
+"name": "i gendarmi",
+"here": "loc=='villefort'",
+"look": [
+{
+"t": "Due gendarmi alla porta, la mano sul fodero della sciabola."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"villefort": {
+"name": "il signor de Villefort",
+"here": "loc=='villefort'",
+"look": [
+{
+"t": "Il signor de Villefort: alto, pallido, una bocca sottile. Fa carriera in fretta, e non vuole intoppi. Stasera doveva essere al suo fidanzamento, anche lui."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"fuoco": {
+"name": "il fuoco",
+"here": "loc=='villefort'",
+"look": [
+{
+"t": "Un fuoco vivo, nel camino di marmo. Ci si potrebbe bruciare qualunque cosa."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"muro": {
+"name": "il muro",
+"here": "loc=='cella'",
+"look": [
+{
+"t": "Pietre grandi come teste, tenute insieme da un cemento vecchio e umido. Quello accanto al letto, a toccarlo, sembra meno duro: il salnitro lo ha mangiato.",
+"if": "scratch && !tunnel"
+},
+{
+"t": "Pietre grandi come teste, tenute insieme da un cemento vecchio e umido. Sopra, le tue tacche: centinaia, poi migliaia."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"brocca": {
+"name": "la brocca",
+"here": "loc=='cella'",
+"look": [
+{
+"t": "I cocci della brocca: uno è appuntito, buono per raschiare.",
+"if": "shard"
+},
+{
+"t": "Una brocca di terracotta per l’acqua. Fragile."
+}
+]
+},
+"casseruola": {
+"name": "la casseruola",
+"here": "loc=='cella'",
+"look": [
+{
+"t": "La casseruola di ferro della minestra, con un lungo manico di ferro battuto. Un manico così farebbe una leva perfetta.",
+"if": "!handle"
+},
+{
+"t": "La casseruola senza manico. Il carceriere non se n’è accorto."
+}
+]
+},
+"carceriere": {
+"name": "il carceriere",
+"here": "loc=='cella'",
+"look": [
+{
+"t": "Un uomo di poche parole, né buono né cattivo. Viene due volte al giorno, posa il pane e la minestra, se ne va."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"finestra": {
+"name": "la finestra",
+"here": "loc=='cella' || loc=='faria'",
+"look": [
+{
+"t": "Una feritoia alta, con tre sbarre. Da lì entra un raggio di luce grigia e, d’inverno, il rumore del mare contro lo scoglio."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"letto": {
+"name": "il letto",
+"here": "loc=='cella' || loc=='faria'",
+"look": [
+{
+"t": "Un pagliericcio su quattro assi. Basta spostarlo per nascondere un buco nel muro."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"buco": {
+"name": "il cunicolo",
+"here": "tunnel && (loc=='cella' || loc=='faria')",
+"look": [
+{
+"t": "Un cunicolo stretto, scavato in anni di lavoro da Faria e, alla fine, anche da te. Ci si passa strisciando."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"faria": {
+"name": "l’abate Faria",
+"here": "loc=='faria'",
+"look": [
+{
+"t": "L’abate Faria, il «prete pazzo» del castello d’If: per i carcerieri è matto perché offre milioni in cambio della libertà. Per te è il più sapiente degli uomini.",
+"if": "!fariaDead"
+},
+{
+"t": "Faria è morto, sereno, nel suo letto."
+}
+],
+"noTake": "Non è il caso."
+},
+"attrezzi": {
+"name": "gli attrezzi",
+"here": "loc=='faria' && !knife",
+"look": [
+{
+"t": "Uno scalpello fatto con una cerniera del letto, un coltello ricavato da un vecchio candeliere, penne, inchiostro, una scala di corda intrecciata con le camicie. Tutto fatto con niente."
+}
+]
+},
+"testamento": {
+"name": "il testamento",
+"here": "loc=='faria' && fariaTold",
+"look": [
+{
+"t": "Un foglio vecchio, bruciato per metà, trovato da Faria anni fa dentro un messale della famiglia Spada. La metà rimasta dice: «…oggi 25 aprile 1498… ho seppellito in un luogo… dell’isola di Montecristo… tutto quanto possiedo in lingotti, oro, monete, gioielli… si trova… sollevando la ventesima roccia… dalla piccola cala dell’est… due aperture… nell’angolo più lontano della seconda… Cesare Spada»."
+}
+]
+},
+"sacco": {
+"name": "il sacco",
+"here": "loc=='faria' && fariaDead || loc=='mare' && !free",
+"look": [
+{
+"t": "Il sacco di tela grezza in cui i carcerieri cuciono i morti. Lo porteranno via stanotte."
+}
+]
+},
+"mare": {
+"name": "il mare",
+"here": "loc=='mare' || loc=='isola' || loc=='porto' || loc=='riserva'",
+"look": [
+{
+"t": "Il Mediterraneo, scuro e infinito."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"piccone": {
+"name": "il piccone",
+"here": "loc=='isola'",
+"look": [
+{
+"t": "Un piccone dei contrabbandieri, con il manico consumato. Ti hanno lasciato anche polvere da sparo e un fucile, per le capre."
+}
+]
+},
+"rocce": {
+"name": "le rocce",
+"here": "loc=='isola'",
+"look": [
+{
+"t": "Dalla piccola cala dell’est sale una fila di rocce grigie, quasi in linea. Ognuna ha un taglio, un segno: come se qualcuno, secoli fa, le avesse contate.",
+"if": "!counted"
+},
+{
+"t": "La ventesima roccia dalla cala: un macigno enorme, appoggiato su una base più piccola, come un tappo."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"forziere": {
+"name": "il forziere",
+"here": "loc=='grotta'",
+"look": [
+{
+"t": "Un forziere di quercia, rinforzato da bande di ferro, con lo stemma degli Spada: una spada verticale su uno scudo ovale. È chiuso da un lucchetto mangiato dalla ruggine."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+},
+"contrabbandieri": {
+"name": "i contrabbandieri",
+"here": "loc=='isola'",
+"look": [
+{
+"t": "I contrabbandieri della Jeune-Amélie: gente rude, che non fa domande. Il loro capo, Jacopo, è già un amico."
+}
+],
+"noTake": "Non è qualcosa che si può portare via."
+}
+},
+"needHere": [
+"look",
+"take"
+],
+"noObj": {
+"take": "Cosa vuoi prendere?"
+},
+"noTake": "Non è qualcosa che si può portare via.",
+"inventory": [
+{
+"t": "la lettera per il signor Noirtier, a Parigi",
+"if": "letter && !letterGiven"
+},
+{
+"t": "un coccio appuntito della brocca, nascosto sotto il pagliericcio",
+"if": "shard && !tunnel"
+},
+{
+"t": "il manico di ferro della casseruola",
+"if": "handle && !tunnel"
+},
+{
+"t": "il coltello di Faria",
+"if": "knife && !free"
+},
+{
+"t": "a memoria, il testamento del cardinale Spada",
+"if": "spadaSolved"
+}
+],
+"procs": {
+"arrest": [
+{
+"if": "arrested",
+"do": [
+{
+"say": "I gendarmi ti tengono per le braccia.",
+"cls": "text"
+}
+]
+},
+{
+"if": "true",
+"do": [
+{
+"set": {
+"arrested": true
+}
+},
+{
+"moment": "arresto"
+},
+{
+"say": "Alzi il bicchiere: «A Mercedes, e alla vita!» Proprio in quel momento, dalla strada, arrivano tre colpi alla porta. Entra un commissario con la sciarpa tricolore, e dietro di lui quattro soldati.",
+"cls": "event"
+},
+{
+"say": "«In nome della legge! Chi di voi è Edmond Dantès?» Mercedes ti afferra la mano. Tuo padre si alza tremando. Il signor Morrel protesta, Caderousse guarda Danglars, Danglars guarda il soffitto. Fernand è sparito.",
+"cls": "event"
+},
+{
+"say": "«Ci dev’essere un errore», dici. «Si chiarirà tutto in un’ora.» Ti portano via senza nemmeno lasciarti salutare.",
+"cls": "text"
+},
+{
+"find": 1
+},
+{
+"go": "villefort"
+}
+]
+}
+],
+"villefort": [
+{
+"if": "letterGiven",
+"do": [
+{
+"say": "La lettera è ormai cenere.",
+"cls": "text"
+}
+]
+},
+{
+"if": "true",
+"do": [
+{
+"set": {
+"letterGiven": true
+}
+},
+{
+"moment": "lettera"
+},
+{
+"say": "Consegni la lettera. «Ecco tutto, signore. Me l’ha affidata il mio capitano morendo. Non so nemmeno cosa ci sia scritto.» Villefort legge l’indirizzo. Impallidisce. Le mani gli tremano.",
+"cls": "event"
+},
+{
+"say": "Noirtier. Il signor Noirtier, rue Coq-Héron: suo padre, il più accanito dei bonapartisti. Se la lettera arrivasse in tribunale, la carriera del figlio sarebbe finita. Villefort guarda te, poi il fuoco. Poi getta la lettera tra le fiamme.",
+"cls": "event"
+},
+{
+"say": "«Ecco», dice, con un sorriso gentile. «La sola prova contro di voi non esiste più. Ma per prudenza resterete a disposizione della giustizia ancora un poco.» Un poco. Ti fanno salire su una barca, nella notte. Davanti a te, nero sullo scoglio, il castello d’If.",
+"cls": "text"
+},
+{
+"find": 2
+},
+{
+"go": "cella"
+}
+]
+}
+],
+"dig": [
+{
+"if": "tunnel",
+"do": [
+{
+"say": "Il cunicolo è aperto.",
+"cls": "text"
+}
+]
+},
+{
+"if": "!knocked",
+"do": [
+{
+"say": "Scavare dove, e perché? Da questa parte c’è un metro di pietra, e dietro forse il mare.",
+"cls": "text"
+}
+]
+},
+{
+"if": "!shard",
+"do": [
+{
+"say": "Con le unghie? Il cemento è morbido, ma ti serve qualcosa di duro e appuntito.",
+"cls": "text"
+}
+]
+},
+{
+"if": "!handle",
+"do": [
+{
+"set": {
+"dug": true
+}
+},
+{
+"say": "Raschi il cemento con il coccio della brocca, notte dopo notte. Ne togli una manciata alla volta, e la sparpagli dalla finestra perché il vento la porti via. Dopo tre giorni hai liberato una pietra. Dietro c’è una trave di legno: il coccio si spezza. Ti serve del ferro.",
+"cls": "text"
+}
+]
+},
+{
+"if": "true",
+"do": [
+{
+"set": {
+"tunnel": true
+}
+},
+{
+"moment": "cunicolo"
+},
+{
+"say": "Infili il manico della casseruola sotto la trave e fai leva. La trave cede. Dietro, il vuoto. E dal vuoto, una voce: «In nome del cielo, chi parla?»",
+"cls": "event"
+},
+{
+"say": "Il pavimento dall’altra parte si solleva, e dalla buca spunta una testa, poi le spalle, poi un uomo intero: vecchio, magro, la barba bianca fino al petto. «Sono l’abate Faria», dice. «Sono qui da quattro anni. Ho scavato cinquanta piedi di galleria per arrivare al mare, e sono arrivato da voi. Mi sono sbagliato di quindici gradi.»",
+"cls": "say"
+},
+{
+"find": 4
+}
+]
+}
+],
+"fariaTalk": [
+{
+"if": "fariaDead",
+"do": [
+{
+"say": "Faria non risponde più.",
+"cls": "text"
+}
+]
+},
+{
+"if": "!named",
+"do": [
+{
+"puzzle": "traditori"
+}
+]
+},
+{
+"if": "!fariaTold",
+"do": [
+{
+"set": {
+"fariaTold": true
+}
+},
+{
+"say": "Faria tira fuori dal suo nascondiglio un foglio ingiallito, bruciato per metà. «Questo è il mio tesoro, figlio mio. Lo chiamano pazzo, il vecchio Faria, perché offre milioni ai carcerieri. Ma i milioni esistono. Leggi.»",
+"cls": "say"
+}
+]
+},
+{
+"if": "!spadaSolved",
+"do": [
+{
+"puzzle": "spada"
+}
+]
+},
+{
+"if": "true",
+"do": [
+{
+"say": "«Quando uscirai di qui, Edmond, e uscirai, va’ a Montecristo. Il tesoro è tuo. Io sono vecchio, e il mio cuore ha già avuto due attacchi. Il terzo mi porterà via.»",
+"cls": "say"
+}
+]
+}
+],
+"escape": [
+{
+"if": "escaped",
+"do": [
+{
+"say": "Sei già nel mare.",
+"cls": "text"
+}
+]
+},
+{
+"if": "!fariaDead",
+"do": [
+{
+"say": "Il sacco dei morti? Non c’è nessun morto, qui. Non ancora.",
+"cls": "text"
+}
+]
+},
+{
+"if": "!knife",
+"do": [
+{
+"say": "Ti cuciranno dentro, e ti getteranno in mare. Senza una lama, non ne uscirai più. Faria aveva un coltello, tra i suoi attrezzi.",
+"cls": "text"
+}
+]
+},
+{
+"if": "true",
+"do": [
+{
+"set": {
+"escaped": true
+}
+},
+{
+"say": "Hai un’idea, e ti fa paura. Trascini il corpo di Faria nella tua cella, attraverso il cunicolo, e lo stendi sul tuo letto, con il viso verso il muro. Poi torni indietro, ti infili nel sacco, e con l’ago che Faria usava per le sue camicie lo ricuci da dentro, punto dopo punto. Stringi il coltello.",
+"cls": "event"
+},
+{
+"say": "A mezzanotte entrano i becchini. Ti sollevano. «Pesa, il vecchio, per essere così magro.» Senti l’aria fredda, il vento, il rumore del mare sotto di voi. Ti legano qualcosa ai piedi. «Uno… due… tre!»",
+"cls": "event"
+},
+{
+"go": "mare"
+}
+]
+}
+]
+},
+"rules": [
+{
+"v": [
+"*"
+],
+"if": "verb()=='break' && o('brocca')",
+"do": [
+{
+"if": "shard",
+"then": [
+{
+"say": "La brocca è già in pezzi.",
+"cls": "text"
+}
+],
+"else": [
+{
+"set": {
+"shard": true
+}
+},
+{
+"say": "Lasci cadere la brocca, come per caso. Si rompe in tre pezzi. Il carceriere brontola, e il giorno dopo te ne porta una nuova; ma tu hai già nascosto il coccio più appuntito sotto il pagliericcio.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='dig' || (verb()=='use' && (o('brocca') || o('casseruola')))",
+"do": [
+{
+"if": "loc=='cella'",
+"then": [
+{
+"proc": "dig"
+}
+],
+"else": [
+{
+"say": "Non c’è niente da scavare, qui.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='knock'",
+"do": [
+{
+"if": "loc=='cella' && scratch && !knocked",
+"then": [
+{
+"puzzle": "colpi"
+}
+],
+"else": [
+{
+"say": "Batti sul muro. Nessuno risponde.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='cut' || (verb()=='use' && o('attrezzi'))",
+"do": [
+{
+"if": "loc=='mare' && !free",
+"then": [
+{
+"set": {
+"free": true
+}
+},
+{
+"moment": "mare"
+},
+{
+"say": "Sott’acqua, al buio, squarci la tela con il coltello di Faria. Taglia la corda della palla di ferro. Risali, risali, i polmoni che scoppiano, e finalmente l’aria. Sopra di te le stelle. Dietro di te il castello d’If, dove nessuno sa ancora niente.",
+"cls": "event"
+},
+{
+"say": "Il cimitero del castello d’If è il mare: e il mare ti ha restituito.",
+"cls": "text"
+},
+{
+"find": 7
+}
+],
+"else": [
+{
+"say": "Non c’è niente da tagliare.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='swim'",
+"do": [
+{
+"if": "loc=='mare' && free",
+"then": [
+{
+"go": "isola"
+}
+],
+"else": [
+{
+"say": "Non qui.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='count' || (verb()=='look' && o('rocce') && !counted)",
+"do": [
+{
+"if": "loc=='isola'",
+"then": [
+{
+"if": "spadaSolved",
+"then": [
+{
+"set": {
+"counted": true
+}
+},
+{
+"say": "Parti dalla piccola cala dell’est e conti le rocce, una a una, salendo. Diciassette, diciotto, diciannove… La ventesima è un macigno enorme, appoggiato su una base più piccola, come un tappo. Intorno, la terra è troppo regolare per essere naturale.",
+"cls": "event"
+}
+],
+"else": [
+{
+"say": "Dalla piccola cala dell’est sale una fila di rocce grigie, quasi in linea. Ognuna ha un taglio, un segno: come se qualcuno, secoli fa, le avesse contate.",
+"cls": "text"
+}
+]
+}
+],
+"else": [
+{
+"say": "Contare cosa?",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='lift' && (o('rocce') || o('piccone'))",
+"do": [
+{
+"if": "loc=='isola' && counted && !opened",
+"then": [
+{
+"set": {
+"opened": true
+}
+},
+{
+"moment": "roccia"
+},
+{
+"say": "Il macigno è troppo pesante per le braccia di un uomo. Allora scavi sotto la base con il piccone, riempi il buco di polvere da sparo, ci fai una miccia con un fazzoletto. Lo scoppio fa volare via mille gabbiani. Il macigno rotola giù fino al mare.",
+"cls": "event"
+},
+{
+"say": "Dove c’era il macigno, una lastra quadrata con un anello di ferro. Sotto, una scala che scende nel buio.",
+"cls": "event"
+}
+],
+"else": [
+{
+"if": "loc=='isola' && !counted",
+"then": [
+{
+"say": "Sollevare quale roccia? Ce ne sono a centinaia.",
+"cls": "text"
+}
+],
+"else": [
+{
+"say": "Non qui.",
+"cls": "text"
+}
+]
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='drink'",
+"do": [
+{
+"if": "loc=='riserva'",
+"then": [
+{
+"proc": "arrest"
+}
+],
+"else": [
+{
+"say": "Non c’è niente da bere.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "verb()=='give' && o('lettera')",
+"do": [
+{
+"if": "loc=='villefort'",
+"then": [
+{
+"proc": "villefort"
+}
+],
+"else": [
+{
+"say": "A chi? La lettera è per un certo signor Noirtier, a Parigi.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"morrel"
+],
+"if": "loc=='porto' && !captain",
+"do": [
+{
+"set": {
+"captain": true
+}
+},
+{
+"say": "«Edmond! E il capitano Leclère?» Racconti della febbre, della sepoltura in mare. Il signor Morrel si toglie il cappello. Poi ti guarda bene. «Hai portato la nave in porto da solo, e l’hai portata bene. Il Pharaon ha bisogno di un capitano. Diciannove anni… ma sì: sarai tu.»",
+"cls": "say"
+},
+{
+"say": "Ti tremano le gambe dalla gioia. Dietro di te, Danglars si morde un labbro.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"morrel"
+],
+"do": [
+{
+"say": "«Va’ da tuo padre, Edmond, e dalla tua Mercedes. Il Pharaon può aspettare un giorno.»",
+"cls": "say"
+}
+]
+},
+{
+"v": [
+"look"
+],
+"o": [
+"lettera"
+],
+"if": "loc=='porto' && !letter",
+"do": [
+{
+"set": {
+"letter": true
+}
+},
+{
+"say": "Una busta sigillata, senza mittente. Sopra c’è scritto: «Al signor Noirtier, rue Coq-Héron, Parigi». Te l’ha consegnata all’isola d’Elba il Gran Maresciallo Bertrand, perché il capitano Leclère, morendo, ti aveva chiesto di portarla. Non sai cosa c’è dentro. Non hai mai pensato di aprirla.",
+"cls": "text"
+},
+{
+"say": "Danglars ti ha visto mentre la rimettevi in tasca. Non ha detto niente.",
+"cls": "event"
+},
+{
+"find": 0
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"danglars"
+],
+"if": "loc=='porto'",
+"do": [
+{
+"say": "«Capitano a diciannove anni», dice Danglars con un inchino. «Che fortuna. E quella sosta all’isola d’Elba… non risulta dal giornale di bordo, vero?»",
+"cls": "say"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"mercedes"
+],
+"if": "loc=='riserva' && !arrested",
+"do": [
+{
+"say": "Mercedes ti stringe la mano sotto il tavolo. «Domani, Edmond. Domani a quest’ora sarò tua moglie, e niente potrà più separarci.»",
+"cls": "say"
+},
+{
+"proc": "arrest"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"fernand"
+],
+"if": "loc=='riserva'",
+"do": [
+{
+"say": "Fernand ti guarda senza rispondere. Poi si volta verso Danglars, che gli sussurra qualcosa all’orecchio.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"caderousse"
+],
+"if": "loc=='riserva'",
+"do": [
+{
+"say": "«Alla salute degli sposi!», grida Caderousse, rovesciando il vino. Poi, più piano, con gli occhi lucidi: «Edmond… ieri sera, alla taverna… no, niente. Ho bevuto troppo.»",
+"cls": "say"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"danglars"
+],
+"if": "loc=='riserva'",
+"do": [
+{
+"say": "Danglars alza il bicchiere verso di te e sorride.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"villefort"
+],
+"if": "loc=='villefort' && !letterGiven",
+"do": [
+{
+"say": "«Siete accusato di bonapartismo», dice Villefort, sfogliando le carte. «Ma avete una faccia onesta, e io voglio credervi. Avete una lettera, mi dicono. Datemela, e tornerete a casa.»",
+"cls": "say"
+}
+]
+},
+{
+"v": [
+"look"
+],
+"o": [
+"fuoco"
+],
+"if": "loc=='villefort'",
+"do": [
+{
+"say": "Un fuoco vivo, nel camino di marmo. Ci si potrebbe bruciare qualunque cosa.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"wait"
+],
+"if": "loc=='cella' && !scratch",
+"do": [
+{
+"set": {
+"scratch": true
+}
+},
+{
+"inc": {
+"years": 4
+}
+},
+{
+"say": "I giorni passano, poi i mesi, poi gli anni. All’inizio speri: ogni volta che senti dei passi pensi che vengano a liberarti. Poi preghi. Poi smetti anche di pregare. Il quarto anno decidi di lasciarti morire di fame, e butti il pane dalla finestra.",
+"cls": "text"
+},
+{
+"say": "Una notte, sdraiato al buio, senti un rumore. Viene dal muro accanto al letto. Un raschiare lento, regolare. Qualcuno, dall’altra parte, sta scavando.",
+"cls": "event"
+}
+]
+},
+{
+"v": [
+"listen"
+],
+"if": "loc=='cella' && scratch && !knocked",
+"do": [
+{
+"say": "Raschia, raschia. Poi si ferma, come in ascolto. Poi riprende. Dall’altra parte del muro c’è un uomo che vuole uscire.",
+"cls": "event"
+},
+{
+"puzzle": "colpi"
+}
+]
+},
+{
+"v": [
+"listen"
+],
+"if": "loc=='cella'",
+"do": [
+{
+"say": "Solo il mare, contro lo scoglio.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"look"
+],
+"o": [
+"muro"
+],
+"if": "loc=='cella' && scratch && !knocked",
+"do": [
+{
+"say": "Pietre grandi come teste, tenute insieme da un cemento vecchio e umido. Quello accanto al letto, a toccarlo, sembra meno duro: il salnitro lo ha mangiato.",
+"cls": "text"
+},
+{
+"puzzle": "colpi"
+}
+]
+},
+{
+"v": [
+"take"
+],
+"o": [
+"casseruola"
+],
+"if": "loc=='cella' && handle",
+"do": [
+{
+"say": "Il manico è già nascosto sotto il pagliericcio.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"take"
+],
+"o": [
+"casseruola"
+],
+"if": "loc=='cella' && dug",
+"do": [
+{
+"set": {
+"handle": true
+}
+},
+{
+"say": "Quando il carceriere porta la minestra, gli fai notare che la brocca nuova è troppo piccola, e che la casseruola potrebbe lasciarla qui per il giorno dopo. Lui alza le spalle e la lascia. La notte stessa ne stacchi il manico di ferro. Il giorno dopo ti mette in punizione per tre giorni, ma il manico non lo ritrova.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"take"
+],
+"o": [
+"casseruola"
+],
+"if": "loc=='cella'",
+"do": [
+{
+"say": "La casseruola della minestra? Per farne cosa? Il carceriere se la riporta via ogni volta.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"carceriere"
+],
+"do": [
+{
+"say": "Il carceriere non risponde. Non risponde mai.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"faria"
+],
+"if": "loc=='faria'",
+"do": [
+{
+"proc": "fariaTalk"
+}
+]
+},
+{
+"v": [
+"look"
+],
+"o": [
+"testamento"
+],
+"if": "loc=='faria' && !spadaSolved",
+"do": [
+{
+"say": "Un foglio vecchio, bruciato per metà, trovato da Faria anni fa dentro un messale della famiglia Spada. La metà rimasta dice: «…oggi 25 aprile 1498… ho seppellito in un luogo… dell’isola di Montecristo… tutto quanto possiedo in lingotti, oro, monete, gioielli… si trova… sollevando la ventesima roccia… dalla piccola cala dell’est… due aperture… nell’angolo più lontano della seconda… Cesare Spada».",
+"cls": "text"
+},
+{
+"puzzle": "spada"
+}
+]
+},
+{
+"v": [
+"wait"
+],
+"if": "loc=='faria' && spadaSolved && !fariaDead",
+"do": [
+{
+"set": {
+"fariaDead": true
+}
+},
+{
+"moment": "faria"
+},
+{
+"say": "Una notte Faria ti chiama, con una voce che non riconosci. «Edmond… il terzo attacco. Ascolta. Il tesoro esiste. Va’ a Montecristo. Sii felice.» Gli stringi le mani fino all’alba. All’alba, sono fredde.",
+"cls": "event"
+},
+{
+"say": "Il carceriere lo trova al mattino. Il medico del castello lo guarda appena. «È morto, il prete pazzo. Cucitelo nel sacco: stanotte lo portiamo al cimitero.»",
+"cls": "text"
+},
+{
+"find": 6
+}
+]
+},
+{
+"v": [
+"take"
+],
+"o": [
+"attrezzi"
+],
+"if": "loc=='faria' && !knife",
+"do": [
+{
+"set": {
+"knife": true
+}
+},
+{
+"say": "Prendi il coltello di Faria, quello che si era fatto con un vecchio candeliere. Te lo infili nella camicia. È affilato.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"take"
+],
+"o": [
+"attrezzi"
+],
+"do": [
+{
+"say": "Il coltello di Faria è già con te.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "(verb()=='go' || verb()=='climb' || verb()=='hide' || verb()=='use') && o('sacco')",
+"do": [
+{
+"if": "loc=='faria'",
+"then": [
+{
+"proc": "escape"
+}
+],
+"else": [
+{
+"say": "Non qui.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"*"
+],
+"if": "(verb()=='lift' || verb()=='look' || verb()=='break') && o('forziere')",
+"do": [
+{
+"if": "loc=='grotta' && !ended",
+"then": [
+{
+"set": {
+"ended": true
+}
+},
+{
+"moment": "tesoro"
+},
+{
+"say": "Un colpo di piccone, e il lucchetto vola via. Sollevi il coperchio. Tre scomparti: nel primo, monete d’oro che brillano alla torcia; nel secondo, lingotti impilati come mattoni; nel terzo, a manciate, diamanti, perle, rubini, che scorrono tra le dita come grandine.",
+"cls": "event"
+},
+{
+"say": "Ti inginocchi. Ridi, piangi, ringrazi Dio e Faria. Il marinaio Dantès, il prigioniero numero 34, è il più ricco uomo del mondo.",
+"cls": "event"
+},
+{
+"find": 8
+},
+{
+"finale": true
+}
+],
+"else": [
+{
+"say": "Il forziere è aperto.",
+"cls": "text"
+}
+]
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"mercedes"
+],
+"do": [
+{
+"say": "Mercedes ti guarda, e non ha bisogno di parole.",
+"cls": "text"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"o": [
+"contrabbandieri"
+],
+"do": [
+{
+"say": "«Riposa la gamba, amico», dice Jacopo. «Torniamo tra sei giorni.»",
+"cls": "say"
+}
+]
+},
+{
+"v": [
+"talk"
+],
+"do": [
+{
+"say": "Non c’è nessuno che ti risponda.",
+"cls": "text"
+}
+]
+}
+],
+"think": [
+{
+"t": "Il tesoro del cardinale Spada è tuo. Il conte di Montecristo può cominciare.",
+"if": "ended"
+},
+{
+"t": "Nella seconda grotta c’è un forziere. Aprilo.",
+"if": "loc=='grotta'"
+},
+{
+"t": "La lastra è aperta: scendi.",
+"if": "opened"
+},
+{
+"t": "Hai trovato la ventesima roccia. Il piccone e la polvere da sparo dei contrabbandieri faranno il resto.",
+"if": "counted"
+},
+{
+"t": "«Sollevando la ventesima roccia dalla piccola cala dell’est»: conta le rocce.",
+"if": "loc=='isola'"
+},
+{
+"t": "Sei libero: nuota verso est, lontano dal castello.",
+"if": "free"
+},
+{
+"t": "Il coltello di Faria! Taglia il sacco, prima che sia troppo tardi.",
+"if": "loc=='mare'"
+},
+{
+"t": "Il sacco dei morti esce dal castello d’If. E se dentro ci fosse un vivo?",
+"if": "fariaDead && knife"
+},
+{
+"t": "Prima di tutto, una lama: tra gli attrezzi di Faria c’è un coltello.",
+"if": "fariaDead && !knife"
+},
+{
+"t": "Faria è stanco. Resta con lui, aspetta.",
+"if": "loc=='faria' && spadaSolved"
+},
+{
+"t": "Il testamento bruciato: leggi bene cosa resta, e ricostruisci cosa manca.",
+"if": "loc=='faria' && fariaTold"
+},
+{
+"t": "Faria vuole raccontarti tutto: parlagli.",
+"if": "loc=='faria'"
+},
+{
+"t": "Il cunicolo porta da Faria, a ovest.",
+"if": "tunnel"
+},
+{
+"t": "Il coccio non basta: ti serve ferro. Il carceriere porta la minestra in una casseruola con il manico di ferro…",
+"if": "dug"
+},
+{
+"t": "Hai un coccio appuntito: raschia il cemento accanto al letto.",
+"if": "shard && knocked"
+},
+{
+"t": "Per scavare ti serve qualcosa di duro. La brocca è di terracotta, e la terracotta si rompe.",
+"if": "knocked && !shard"
+},
+{
+"t": "Qualcuno scava dall’altra parte del muro. Fagli sapere che ci sei, ma senza farti sentire dalle guardie.",
+"if": "scratch && !knocked"
+},
+{
+"t": "Il tempo, qui, è l’unica cosa che non manca. Aspetta.",
+"if": "loc=='cella'"
+},
+{
+"t": "Villefort vuole la lettera. Dagliela: non hai niente da nascondere.",
+"if": "loc=='villefort'"
+},
+{
+"t": "È la tua festa: brinda con gli amici, parla con Mercedes.",
+"if": "loc=='riserva'"
+},
+{
+"t": "La lettera che porti in tasca: guardala bene.",
+"if": "loc=='porto' && captain"
+},
+{
+"t": "Il signor Morrel ti aspetta sul molo.",
+"if": "loc=='porto'"
+}
+],
+"ambient": {
+"every": 4,
+"sets": [
+{
+"if": "loc=='porto' || loc=='riserva'",
+"lines": [
+"I gabbiani gridano sopra gli alberi delle navi.",
+"Il mistral fa sbattere le vele.",
+"Dalla Canebière arriva il rumore delle carrozze."
+]
+},
+{
+"if": "loc=='cella' || loc=='faria'",
+"lines": [
+"Il mare batte contro lo scoglio, sotto di te.",
+"Passi nel corridoio. Poi silenzio.",
+"Una goccia cade dal soffitto, sempre nello stesso punto."
+]
+},
+{
+"if": "loc=='isola' || loc=='mare'",
+"lines": [
+"Il vento fischia tra le rocce.",
+"Una capra selvatica salta da uno scoglio all’altro."
+]
+},
+{
+"if": "true",
+"lines": [
+"Il cuore ti batte forte."
+]
+}
+]
+},
+"puzzles": {
+"colpi": {
+"type": "choice",
+"title": "I colpi nel muro",
+"button": "Rispondi al muro",
+"intro": "Il raschiare si ferma ogni volta che passa la guardia, e riprende quando i passi si allontanano. Chi scava ha paura dei carcerieri, quanto te. Se sente un rumore sospetto, smetterà per sempre.",
+"question": "Come gli fai sapere che dall’altra parte c’è un prigioniero, e non una guardia?",
+"options": [
+{
+"t": "Chiami il carceriere: che venga a vedere chi sta scavando.",
+"why": "Il carceriere lo scoprirebbe e lo trasferirebbe in una segreta. E tu perderesti l’unica speranza che hai."
+},
+{
+"t": "Gridi più forte che puoi, perché ti senta attraverso il muro.",
+"why": "Ti sentirebbero anche le guardie nel corridoio. Chi scava smetterebbe subito."
+},
+{
+"t": "Aspetti che le guardie siano lontane, poi batti tre colpi piano sul muro, nel punto del rumore.",
+"ok": true
+},
+{
+"t": "Ti metti a scavare anche tu, subito, in pieno giorno.",
+"why": "In pieno giorno il carceriere entra due volte. E senza sapere dove scava l’altro, scaveresti a caso."
+}
+],
+"hint": "Chi scava ascolta. Basta un segnale che una guardia non darebbe mai: piano, e nel momento giusto.",
+"onSolve": [
+{
+"say": "Aspetti che i passi si allontanino. Poi, con il pugno, piano: tre colpi. Silenzio. Un silenzio lunghissimo. Poi, dall’altra parte, tre colpi in risposta.",
+"cls": "event"
+},
+{
+"say": "Da quella notte il raschiare riprende più deciso, e viene verso di te. Anche tu, ora, devi scavare dalla tua parte. Ma con cosa?",
+"cls": "text"
+},
+{
+"set": {
+"knocked": true
+}
+},
+{
+"find": 3
+}
+],
+"solvedIf": "knocked"
+},
+"traditori": {
+"type": "choice",
+"title": "Chi ti ha tradito",
+"button": "Parla con Faria",
+"intro": "Racconti a Faria la tua storia, dal Pharaon alla festa alla Riserva. Lui ascolta con gli occhi chiusi. Poi ti fa domande: chi voleva il tuo posto di capitano? Chi voleva Mercedes? Chi sapeva della lettera? Chi c’era quella sera alla taverna, a bere con chi? «La denuncia era scritta con la mano sinistra», dici, «per non farsi riconoscere.»",
+"question": "«E allora, figlio mio: chi l’ha scritta, e chi l’ha portata?»",
+"options": [
+{
+"t": "L’ha scritta e portata Caderousse, che era ubriaco e invidioso.",
+"why": "Caderousse era ubriaco, sì, e ha visto tutto. Ma non sapeva della lettera: era a terra, quando sei sbarcato dall’Elba."
+},
+{
+"t": "L’ha scritta Danglars, con la mano sinistra; l’ha portata Fernand alla posta.",
+"ok": true
+},
+{
+"t": "L’ha scritta Fernand, da solo, per gelosia.",
+"why": "Fernand è un pescatore: sa a malapena scrivere, e non sapeva niente della lettera. Qualcuno doveva dirglielo."
+},
+{
+"t": "Nessuno: è stato Villefort a inventare tutto.",
+"why": "Villefort aveva la denuncia sulla scrivania prima di vederti. Lui ti ha condannato dopo, per salvare suo padre."
+}
+],
+"hint": "Chi sapeva della lettera? Chi ti ha visto metterla in tasca? E chi aveva un motivo, ma non sapeva scrivere bene?",
+"onSolve": [
+{
+"say": "Faria annuisce. «Danglars voleva il tuo posto, Fernand voleva la tua sposa. Uno sapeva scrivere, l’altro aveva il coraggio di imbucare. E Caderousse ha guardato, e ha bevuto. E Villefort…» Gli racconti del nome sulla busta, Noirtier. Faria ride amaro. «Noirtier è suo padre. Ti ha sepolto qui per salvare se stesso.»",
+"cls": "say"
+},
+{
+"say": "Per la prima volta in tanti anni capisci tutto. E qualcosa, dentro di te, si chiude come un pugno.",
+"cls": "event"
+},
+{
+"set": {
+"named": true
+}
+},
+{
+"find": 5
+}
+],
+"solvedIf": "named"
+},
+"spada": {
+"type": "choice",
+"title": "Il testamento bruciato",
+"button": "Leggi il testamento",
+"intro": "Metà del foglio è bruciata: restano solo pezzi di frasi. «…dell’isola di Montecristo… sollevando la ventesima roccia… dalla piccola cala dell’est… due aperture… nell’angolo più lontano della seconda…» Faria ha passato anni a ricostruire il resto. Ora tocca a te.",
+"question": "Dov’è il tesoro del cardinale Spada?",
+"options": [
+{
+"t": "A Roma, nel palazzo Spada, sotto il pavimento della cappella.",
+"why": "Il palazzo di Roma l’hanno frugato in tre secoli eredi e ladri. Il foglio parla di un’isola."
+},
+{
+"t": "Sull’isola di Montecristo, sotto la roccia più alta, in cima al monte.",
+"why": "Il foglio non parla della più alta: parla di una roccia precisa, contata a partire da una cala."
+},
+{
+"t": "Sull’isola di Montecristo: contando venti rocce dalla piccola cala dell’est, sotto la ventesima, nella seconda grotta.",
+"ok": true
+},
+{
+"t": "In fondo al mare, davanti alla piccola cala dell’est.",
+"why": "Il cardinale parla di grotte e di aperture: luoghi asciutti, sottoterra, non sott’acqua."
+}
+],
+"hint": "Metti in fila i pezzi: un’isola, una cala, un numero, due aperture.",
+"onSolve": [
+{
+"say": "«Montecristo», dici. «Dalla piccola cala dell’est, la ventesima roccia. Sotto, due grotte. Il tesoro è nell’angolo più lontano della seconda.» Faria ti abbraccia. «Ci ho messo dodici anni a capirlo. Tu un’ora. Ora è tuo, Edmond: due milioni di scudi romani.»",
+"cls": "say"
+},
+{
+"set": {
+"spadaSolved": true
+}
+}
+],
+"solvedIf": "spadaSolved"
+}
+},
+"finale": {
+"eyebrow": "Fine della prima parte",
+"title": "Il conte di Montecristo",
+"lede": "Quattordici anni di prigione, un amico, un testamento bruciato e un sacco cucito da dentro.",
+"text": "Edmond Dantès è entrato nel castello d’If a diciannove anni, innocente e felice. Ne è uscito a trentatré, nel sacco di un morto, sapendo il latino, il greco, la chimica e i nomi di quattro uomini: Danglars, Fernand, Caderousse, Villefort. Con il tesoro del cardinale Spada si comprerà un’isola, un titolo, un nome nuovo: conte di Montecristo. E tornerà a Marsiglia, e poi a Parigi, dove nessuno lo riconoscerà. Ma questa è un’altra storia. Per ora resta un uomo solo, in una grotta, alla luce di una torcia, e una frase di Faria: «Tutta la saggezza umana sta in queste due parole: aspettare e sperare.»",
+"scene": "grotta"
+},
+"ui": {
+"maxQuick": [
+4,
+6
+],
+"quick": [
+{
+"at": "*",
+"label": "Guarda il tesoro",
+"cmd": "@finale",
+"if": "ended"
+},
+{
+"at": "porto",
+"label": "Parla con il signor Morrel",
+"cmd": "parla con Morrel",
+"if": "!captain"
+},
+{
+"at": "porto",
+"label": "Guarda la lettera",
+"cmd": "guarda la lettera",
+"if": "captain && !letter"
+},
+{
+"at": "porto",
+"label": "Parla con Danglars",
+"cmd": "parla con Danglars",
+"once": true
+},
+{
+"at": "riserva",
+"label": "Brinda",
+"cmd": "brinda",
+"if": "!arrested"
+},
+{
+"at": "riserva",
+"label": "Parla con Caderousse",
+"cmd": "parla con Caderousse",
+"once": true
+},
+{
+"at": "villefort",
+"label": "Parla con Villefort",
+"cmd": "parla con Villefort",
+"once": true
+},
+{
+"at": "villefort",
+"label": "Dai la lettera a Villefort",
+"cmd": "dai la lettera a Villefort",
+"if": "!letterGiven"
+},
+{
+"at": "cella",
+"label": "Aspetta",
+"cmd": "aspetta",
+"if": "!scratch"
+},
+{
+"at": "cella",
+"label": "Ascolta il muro",
+"cmd": "ascolta",
+"if": "scratch && !knocked"
+},
+{
+"at": "cella",
+"label": "Rompi la brocca",
+"cmd": "rompi la brocca",
+"if": "knocked && !shard"
+},
+{
+"at": "cella",
+"label": "Scava nel muro",
+"cmd": "scava",
+"if": "shard && !tunnel && (!dug || handle)"
+},
+{
+"at": "cella",
+"label": "Tieni la casseruola",
+"cmd": "prendi la casseruola",
+"if": "dug && !handle"
+},
+{
+"at": "faria",
+"label": "Parla con Faria",
+"cmd": "parla con Faria",
+"if": "!spadaSolved"
+},
+{
+"at": "faria",
+"label": "Resta con Faria",
+"cmd": "aspetta",
+"if": "spadaSolved && !fariaDead"
+},
+{
+"at": "faria",
+"label": "Prendi il coltello",
+"cmd": "prendi gli attrezzi",
+"if": "!knife && fariaDead"
+},
+{
+"at": "faria",
+"label": "Entra nel sacco",
+"cmd": "entra nel sacco",
+"if": "fariaDead && !escaped"
+},
+{
+"at": "mare",
+"label": "Taglia il sacco",
+"cmd": "taglia il sacco",
+"if": "!free"
+},
+{
+"at": "mare",
+"label": "Nuota",
+"cmd": "nuota",
+"if": "free"
+},
+{
+"at": "isola",
+"label": "Conta le rocce",
+"cmd": "conta le rocce",
+"if": "!counted"
+},
+{
+"at": "isola",
+"label": "Fai saltare la roccia",
+"cmd": "solleva la roccia",
+"if": "counted && !opened"
+},
+{
+"at": "grotta",
+"label": "Apri il forziere",
+"cmd": "apri il forziere",
+"if": "!ended"
+}
+],
+"objActions": {
+"morrel": [
+{
+"label": "Parlagli",
+"cmd": "parla con Morrel"
+}
+],
+"pharaon": [
+{
+"label": "Guardalo",
+"cmd": "guarda il Pharaon"
+}
+],
+"lettera": [
+{
+"label": "Guardala",
+"cmd": "guarda la lettera"
+},
+{
+"label": "Dalla a Villefort",
+"cmd": "dai la lettera a Villefort",
+"if": "loc=='villefort'"
+}
+],
+"danglars": [
+{
+"label": "Parlagli",
+"cmd": "parla con Danglars"
+},
+{
+"label": "Guardalo",
+"cmd": "guarda Danglars"
+}
+],
+"mercedes": [
+{
+"label": "Parlale",
+"cmd": "parla con Mercedes"
+},
+{
+"label": "Guardala",
+"cmd": "guarda Mercedes"
+}
+],
+"fernand": [
+{
+"label": "Parlagli",
+"cmd": "parla con Fernand"
+},
+{
+"label": "Guardalo",
+"cmd": "guarda Fernand"
+}
+],
+"caderousse": [
+{
+"label": "Parlagli",
+"cmd": "parla con Caderousse"
+}
+],
+"villefort": [
+{
+"label": "Parlagli",
+"cmd": "parla con Villefort"
+},
+{
+"label": "Dagli la lettera",
+"cmd": "dai la lettera a Villefort",
+"if": "!letterGiven"
+}
+],
+"fuoco": [
+{
+"label": "Guardalo",
+"cmd": "guarda il fuoco"
+}
+],
+"muro": [
+{
+"label": "Guardalo",
+"cmd": "guarda il muro"
+},
+{
+"label": "Ascolta",
+"cmd": "ascolta"
+},
+{
+"label": "Batti tre colpi",
+"cmd": "bussa",
+"if": "scratch && !knocked"
+},
+{
+"label": "Scava",
+"cmd": "scava",
+"if": "knocked && !tunnel"
+}
+],
+"brocca": [
+{
+"label": "Guardala",
+"cmd": "guarda la brocca"
+},
+{
+"label": "Rompila",
+"cmd": "rompi la brocca",
+"if": "!shard"
+}
+],
+"casseruola": [
+{
+"label": "Guardala",
+"cmd": "guarda la casseruola"
+},
+{
+"label": "Tienila",
+"cmd": "prendi la casseruola",
+"if": "!handle"
+}
+],
+"carceriere": [
+{
+"label": "Parlagli",
+"cmd": "parla con il carceriere"
+}
+],
+"finestra": [
+{
+"label": "Guardala",
+"cmd": "guarda la finestra"
+}
+],
+"letto": [
+{
+"label": "Guardalo",
+"cmd": "guarda il letto"
+}
+],
+"buco": [
+{
+"label": "Guardalo",
+"cmd": "guarda il cunicolo"
+}
+],
+"faria": [
+{
+"label": "Parlagli",
+"cmd": "parla con Faria"
+},
+{
+"label": "Guardalo",
+"cmd": "guarda Faria"
+}
+],
+"attrezzi": [
+{
+"label": "Guardali",
+"cmd": "guarda gli attrezzi"
+},
+{
+"label": "Prendi il coltello",
+"cmd": "prendi gli attrezzi"
+}
+],
+"testamento": [
+{
+"label": "Leggilo",
+"cmd": "guarda il testamento"
+}
+],
+"sacco": [
+{
+"label": "Guardalo",
+"cmd": "guarda il sacco"
+},
+{
+"label": "Entraci",
+"cmd": "entra nel sacco",
+"if": "loc=='faria'"
+},
+{
+"label": "Taglialo",
+"cmd": "taglia il sacco",
+"if": "loc=='mare'"
+}
+],
+"piccone": [
+{
+"label": "Guardalo",
+"cmd": "guarda il piccone"
+}
+],
+"rocce": [
+{
+"label": "Guardale",
+"cmd": "guarda le rocce"
+},
+{
+"label": "Contale",
+"cmd": "conta le rocce"
+},
+{
+"label": "Fai saltare la ventesima",
+"cmd": "solleva la roccia",
+"if": "counted && !opened"
+}
+],
+"forziere": [
+{
+"label": "Aprilo",
+"cmd": "apri il forziere"
+}
+],
+"mare": [
+{
+"label": "Guardalo",
+"cmd": "guarda il mare"
+}
+],
+"contrabbandieri": [
+{
+"label": "Parla con Jacopo",
+"cmd": "parla con i contrabbandieri"
+}
+]
+},
+"phrases": [
+[
+"signor morrel",
+"morrel"
+],
+[
+"danglars",
+"danglars"
+],
+[
+"mercedes",
+"mercedes"
+],
+[
+"fernand",
+"fernand"
+],
+[
+"caderousse",
+"caderousse"
+],
+[
+"lettera",
+"lettera"
+],
+[
+"villefort",
+"villefort"
+],
+[
+"fuoco acceso",
+"fuoco"
+],
+[
+"finestra alta",
+"finestra"
+],
+[
+"una brocca",
+"brocca"
+],
+[
+"una casseruola di minestra",
+"casseruola"
+],
+[
+"il carceriere",
+"carceriere"
+],
+[
+"dal muro",
+"muro"
+],
+[
+"sul muro",
+"muro"
+],
+[
+"il cunicolo",
+"buco"
+],
+[
+"abate faria",
+"faria"
+],
+[
+"i suoi attrezzi",
+"attrezzi"
+],
+[
+"sacco dei morti",
+"sacco"
+],
+[
+"un piccone",
+"piccone"
+],
+[
+"una fila di rocce grigie",
+"rocce"
+],
+[
+"un forziere di quercia",
+"forziere"
+],
+[
+"contrabbandieri",
+"contrabbandieri"
+],
+[
+"il pharaon",
+"pharaon"
+],
+[
+"un pagliericcio",
+"letto"
+]
+]
+},
+"art": {
+"style": "notte",
+"scenes": {
+"porto": {
+"f": [
+{
+"d": "M0 0H320V92H0Z",
+"c": "#CDD6D3",
+"sx": 160.0,
+"sy": 46.0
+},
+{
+"d": "M0 92H320V122H0Z",
+"c": "#7E989A",
+"sx": 160.0,
+"sy": 107.0
+},
+{
+"d": "M0 122H320V160H0Z",
+"c": "#8C7B66",
+"sx": 160.0,
+"sy": 141.0
+},
+{
+"d": "M0 92 V50 H50 V92Z M56 92 V40 L80 28 L104 40 V92Z",
+"c": "#C8A982",
+"sx": 50,
+"sy": 70
+},
+{
+"d": "M170 104 L290 104 L280 118 L178 118Z",
+"c": "#2B2620",
+"sx": 230,
+"sy": 110
+},
+{
+"d": "M200 102 V20 M240 102 V12 M270 102 V26",
+"c": "#2B2620",
+"sx": 236,
+"sy": 60
+},
+{
+"d": "M202 30 H236 L234 56 H204Z M242 22 H276 L274 52 H244Z",
+"c": "#E8E2D2",
+"sx": 238,
+"sy": 40
+}
+],
+"l": [
+{
+"d": "M0 92 H320 M0 122 H320 M0 92 V50 H50 V92 M56 92 V40 L80 28 L104 40 V92",
+"w": 1
+},
+{
+"d": "M170 104 L290 104 L280 118 L178 118Z M200 104 V20 M240 104 V12 M270 104 V26",
+"w": 1
+},
+{
+"d": "M202 30 H236 L234 56 H204Z M242 22 H276 L274 52 H244Z",
+"w": 0.8
+}
+]
+},
+"riserva": {
+"f": [
+{
+"d": "M0 0H320V100H0Z",
+"c": "#7E989A",
+"sx": 160.0,
+"sy": 50.0
+},
+{
+"d": "M0 100H320V160H0Z",
+"c": "#BEA97F",
+"sx": 160.0,
+"sy": 130.0
+},
+{
+"d": "M0 40 H320 V48 H0Z",
+"c": "#5A6F49",
+"sx": 160,
+"sy": 44
+},
+{
+"d": "M40 116 H280 V126 H40Z",
+"c": "#E8E2D2",
+"sx": 160,
+"sy": 121
+},
+{
+"d": "M50 126H54V148H50Z",
+"c": "#4C3D2F",
+"sx": 52.0,
+"sy": 137.0
+},
+{
+"d": "M266 126H270V148H266Z",
+"c": "#4C3D2F",
+"sx": 268.0,
+"sy": 137.0
+},
+{
+"d": "M114 112 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z M194 112 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#9E3B25",
+"sx": 160,
+"sy": 112
+},
+{
+"d": "M20 40H24V116H20Z",
+"c": "#4C3D2F",
+"sx": 22.0,
+"sy": 78.0
+},
+{
+"d": "M60 40H64V116H60Z",
+"c": "#4C3D2F",
+"sx": 62.0,
+"sy": 78.0
+},
+{
+"d": "M100 40H104V116H100Z",
+"c": "#4C3D2F",
+"sx": 102.0,
+"sy": 78.0
+},
+{
+"d": "M140 40H144V116H140Z",
+"c": "#4C3D2F",
+"sx": 142.0,
+"sy": 78.0
+},
+{
+"d": "M180 40H184V116H180Z",
+"c": "#4C3D2F",
+"sx": 182.0,
+"sy": 78.0
+},
+{
+"d": "M220 40H224V116H220Z",
+"c": "#4C3D2F",
+"sx": 222.0,
+"sy": 78.0
+},
+{
+"d": "M260 40H264V116H260Z",
+"c": "#4C3D2F",
+"sx": 262.0,
+"sy": 78.0
+},
+{
+"d": "M300 40H304V116H300Z",
+"c": "#4C3D2F",
+"sx": 302.0,
+"sy": 78.0
+}
+],
+"l": [
+{
+"d": "M20 40 V116 M24 40 V116",
+"w": 0.6
+},
+{
+"d": "M60 40 V116 M64 40 V116",
+"w": 0.6
+},
+{
+"d": "M100 40 V116 M104 40 V116",
+"w": 0.6
+},
+{
+"d": "M140 40 V116 M144 40 V116",
+"w": 0.6
+},
+{
+"d": "M180 40 V116 M184 40 V116",
+"w": 0.6
+},
+{
+"d": "M220 40 V116 M224 40 V116",
+"w": 0.6
+},
+{
+"d": "M260 40 V116 M264 40 V116",
+"w": 0.6
+},
+{
+"d": "M300 40 V116 M304 40 V116",
+"w": 0.6
+},
+{
+"d": "M0 40 H320 M0 48 H320 M40 116 H280 V126 H40Z",
+"w": 1
+}
+]
+},
+"villefort": {
+"f": [
+{
+"d": "M0 0H320V120H0Z",
+"c": "#5C4A3A",
+"sx": 160.0,
+"sy": 60.0
+},
+{
+"d": "M0 120H320V160H0Z",
+"c": "#3E3A33",
+"sx": 160.0,
+"sy": 140.0
+},
+{
+"d": "M20 120 V30 H70 V120Z",
+"c": "#7A3B2E",
+"sx": 45,
+"sy": 75
+},
+{
+"d": "M250 120 V60 H300 V120Z",
+"c": "#6E6A60",
+"sx": 275,
+"sy": 90
+},
+{
+"d": "M262 120 V84 H288 V120Z",
+"c": "#2B2620",
+"sx": 275,
+"sy": 102
+},
+{
+"d": "M266 120 C268 110 274 112 276 104 C278 112 284 110 286 120Z",
+"c": "#D9822B",
+"sx": 276,
+"sy": 114,
+"id": "fiamma"
+},
+{
+"d": "M110 100 H220 V108 H110Z",
+"c": "#4C3D2F",
+"sx": 165,
+"sy": 104
+},
+{
+"d": "M116 108H122V138H116Z",
+"c": "#4C3D2F",
+"sx": 119.0,
+"sy": 123.0
+},
+{
+"d": "M208 108H214V138H208Z",
+"c": "#4C3D2F",
+"sx": 211.0,
+"sy": 123.0
+},
+{
+"d": "M160 100 L164 88 H180 L182 100Z",
+"c": "#E8E2D2",
+"sx": 171,
+"sy": 94
+}
+],
+"l": [
+{
+"d": "M0 120 H320 M20 120 V30 H70 V120 M250 120 V60 H300 V120 M262 120 V84 H288 V120",
+"w": 1
+},
+{
+"d": "M110 100 H220 V108 H110Z M119 108 V138 M211 108 V138",
+"w": 0.9
+}
+]
+},
+"cella": {
+"f": [
+{
+"d": "M0 0H320V160H0Z",
+"c": "#847F74",
+"sx": 160.0,
+"sy": 80.0
+},
+{
+"d": "M0 128H320V160H0Z",
+"c": "#6E6A60",
+"sx": 160.0,
+"sy": 144.0
+},
+{
+"d": "M140 20 H180 V44 H140Z",
+"c": "#C8CDCB",
+"sx": 160,
+"sy": 32
+},
+{
+"d": "M30 128 H120 V114 H30Z",
+"c": "#8C7B66",
+"sx": 75,
+"sy": 121
+},
+{
+"d": "M212 124 a8 6 0 1 0 16 0 a8 6 0 1 0 -16 0Z",
+"c": "#9C8462",
+"sx": 220,
+"sy": 124
+},
+{
+"d": "M250 128 V104 H276 V128Z",
+"c": "#4C3D2F",
+"sx": 263,
+"sy": 116
+},
+{
+"d": "M100 104 a10 8 0 1 0 20 0 a10 8 0 1 0 -20 0Z",
+"c": "#2B2620",
+"sx": 110,
+"sy": 104,
+"id": "buco",
+"if": "tunnel"
+}
+],
+"l": [
+{
+"d": "M0 10 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 10 V28 M28 10 V28 M56 10 V28 M84 10 V28 M112 10 V28 M140 10 V28 M168 10 V28 M196 10 V28 M224 10 V28 M252 10 V28 M280 10 V28 M308 10 V28",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 28 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M14 28 V46 M42 28 V46 M70 28 V46 M98 28 V46 M126 28 V46 M154 28 V46 M182 28 V46 M210 28 V46 M238 28 V46 M266 28 V46 M294 28 V46 M322 28 V46",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 46 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 46 V64 M28 46 V64 M56 46 V64 M84 46 V64 M112 46 V64 M140 46 V64 M168 46 V64 M196 46 V64 M224 46 V64 M252 46 V64 M280 46 V64 M308 46 V64",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 64 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M14 64 V82 M42 64 V82 M70 64 V82 M98 64 V82 M126 64 V82 M154 64 V82 M182 64 V82 M210 64 V82 M238 64 V82 M266 64 V82 M294 64 V82 M322 64 V82",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 82 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 82 V100 M28 82 V100 M56 82 V100 M84 82 V100 M112 82 V100 M140 82 V100 M168 82 V100 M196 82 V100 M224 82 V100 M252 82 V100 M280 82 V100 M308 82 V100",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 100 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M14 100 V118 M42 100 V118 M70 100 V118 M98 100 V118 M126 100 V118 M154 100 V118 M182 100 V118 M210 100 V118 M238 100 V118 M266 100 V118 M294 100 V118 M322 100 V118",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 118 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 118 V136 M28 118 V136 M56 118 V136 M84 118 V136 M112 118 V136 M140 118 V136 M168 118 V136 M196 118 V136 M224 118 V136 M252 118 V136 M280 118 V136 M308 118 V136",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M140 20 H180 V44 H140Z M150 20 V44 M160 20 V44 M170 20 V44",
+"w": 1
+},
+{
+"d": "M30 128 H120 V114 H30Z M250 128 V104 H276 V128",
+"w": 0.9
+},
+{
+"d": "M40 60 v8 M43 60 v8 M46 60 v8 M49 60 v8 M52 60 v8 M55 60 v8 M58 60 v8 M61 60 v8 M64 60 v8 M67 60 v8 M70 60 v8 M73 60 v8",
+"w": 0.6,
+"c": "#2B2620"
+}
+]
+},
+"faria": {
+"f": [
+{
+"d": "M0 0H320V160H0Z",
+"c": "#847F74",
+"sx": 160.0,
+"sy": 80.0
+},
+{
+"d": "M0 128H320V160H0Z",
+"c": "#6E6A60",
+"sx": 160.0,
+"sy": 144.0
+},
+{
+"d": "M160 20 H196 V42 H160Z",
+"c": "#C8CDCB",
+"sx": 178,
+"sy": 31
+},
+{
+"d": "M200 128 H300 V112 H200Z",
+"c": "#8C7B66",
+"sx": 250,
+"sy": 120
+},
+{
+"d": "M60 112 H140 V118 H60Z",
+"c": "#4C3D2F",
+"sx": 100,
+"sy": 115
+},
+{
+"d": "M70 112 H100 V104 H70Z M106 112 H130 V106 H106Z",
+"c": "#E8E2D2",
+"sx": 100,
+"sy": 108
+},
+{
+"d": "M117 100 a3 4 0 1 0 6 0 a3 4 0 1 0 -6 0Z",
+"c": "#F2C14E",
+"sx": 120,
+"sy": 100
+},
+{
+"d": "M206 112 C220 100 270 100 294 112Z",
+"c": "#E8E2D2",
+"sx": 250,
+"sy": 106,
+"if": "fariaDead"
+}
+],
+"l": [
+{
+"d": "M160 20 H196 V42 H160Z M172 20 V42 M184 20 V42 M200 128 H300 V112 H200Z M60 112 H140 V118 H60Z",
+"w": 1
+},
+{
+"d": "M0 10 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 28 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 46 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 64 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 82 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 100 H320",
+"w": 0.4,
+"c": "#5F5A52"
+},
+{
+"d": "M0 118 H320",
+"w": 0.4,
+"c": "#5F5A52"
+}
+]
+},
+"mare": {
+"f": [
+{
+"d": "M0 0H320V160H0Z",
+"c": "#2E3A55",
+"sx": 160.0,
+"sy": 80.0
+},
+{
+"d": "M0 90H320V160H0Z",
+"c": "#22304A",
+"sx": 160.0,
+"sy": 125.0
+},
+{
+"d": "M200 90 L210 50 L230 44 L240 30 L260 30 L266 50 L290 56 L300 90Z",
+"c": "#14161C",
+"sx": 250,
+"sy": 66
+},
+{
+"d": "M248 52 a2 2 0 1 0 4 0 a2 2 0 1 0 -4 0Z",
+"c": "#F2C14E",
+"sx": 250,
+"sy": 52
+},
+{
+"d": "M52 24 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0Z",
+"c": "#EDE6D8",
+"sx": 60,
+"sy": 24
+},
+{
+"d": "M120 120 C120 108 150 108 150 120 C150 132 120 132 120 120Z",
+"c": "#8C8A84",
+"sx": 135,
+"sy": 120,
+"if": "!free"
+},
+{
+"d": "M130 112 a5 4 0 1 0 10 0 a5 4 0 1 0 -10 0Z",
+"c": "#B98A66",
+"sx": 135,
+"sy": 112,
+"if": "free"
+}
+],
+"l": [
+{
+"d": "M0 90 H320",
+"w": 1,
+"c": "#8C8A84"
+},
+{
+"d": "M20 110 c10 -3 20 3 30 0 M200 130 c10 -3 20 3 30 0 M80 140 c10 -3 20 3 30 0",
+"w": 0.6,
+"c": "#8C8A84"
+}
+]
+},
+"isola": {
+"f": [
+{
+"d": "M0 0H320V160H0Z",
+"c": "#CDD6D3",
+"sx": 160.0,
+"sy": 80.0
+},
+{
+"d": "M0 100H320V160H0Z",
+"c": "#7E989A",
+"sx": 160.0,
+"sy": 130.0
+},
+{
+"d": "M40 110 L90 40 L130 56 L170 20 L230 60 L280 50 L310 110Z",
+"c": "#9C8462",
+"sx": 175,
+"sy": 70
+},
+{
+"d": "M40 110 C80 104 140 106 180 110 C240 104 280 106 310 110 V122 H40Z",
+"c": "#8C7B66",
+"sx": 175,
+"sy": 114
+},
+{
+"d": "M64 104 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 70,
+"sy": 104
+},
+{
+"d": "M84 96 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 90,
+"sy": 96
+},
+{
+"d": "M104 90 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 110,
+"sy": 90
+},
+{
+"d": "M124 84 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 130,
+"sy": 84
+},
+{
+"d": "M144 80 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 150,
+"sy": 80
+},
+{
+"d": "M164 74 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 170,
+"sy": 74
+},
+{
+"d": "M184 70 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 190,
+"sy": 70
+},
+{
+"d": "M204 68 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0Z",
+"c": "#6E6A60",
+"sx": 210,
+"sy": 68
+},
+{
+"d": "M218 64 a12 9 0 1 0 24 0 a12 9 0 1 0 -24 0Z",
+"c": "#9C978B",
+"sx": 230,
+"sy": 64,
+"if": "!opened"
+},
+{
+"d": "M222 66 a8 4 0 1 0 16 0 a8 4 0 1 0 -16 0Z",
+"c": "#2B2620",
+"sx": 230,
+"sy": 66,
+"if": "opened"
+}
+],
+"l": [
+{
+"d": "M40 110 L90 40 L130 56 L170 20 L230 60 L280 50 L310 110 M0 100 H40 M310 100 H320",
+"w": 1
+}
+]
+},
+"grotta": {
+"f": [
+{
+"d": "M0 0H320V160H0Z",
+"c": "#3E3640",
+"sx": 160.0,
+"sy": 80.0
+},
+{
+"d": "M30 160 C20 80 80 20 160 18 C240 16 300 80 290 160Z",
+"c": "#5A4A5E",
+"sx": 160,
+"sy": 90
+},
+{
+"d": "M0 132H320V160H0Z",
+"c": "#4C3D2F",
+"sx": 160.0,
+"sy": 146.0
+},
+{
+"d": "M130 132 V108 H190 V132Z",
+"c": "#4C3D2F",
+"sx": 160,
+"sy": 120
+},
+{
+"d": "M126 108 C126 96 194 96 194 108Z",
+"c": "#4C3D2F",
+"sx": 160,
+"sy": 102,
+"id": "coperchio"
+},
+{
+"d": "M76 70 a4 6 0 1 0 8 0 a4 6 0 1 0 -8 0Z",
+"c": "#D9822B",
+"sx": 80,
+"sy": 70
+},
+{
+"d": "M134 108 H186 V100 C176 94 144 94 134 100Z",
+"c": "#F2C14E",
+"sx": 160,
+"sy": 102,
+"id": "oro",
+"if": "ended"
+}
+],
+"l": [
+{
+"d": "M30 160 C20 80 80 20 160 18 C240 16 300 80 290 160 M0 132 H320 M130 132 V108 H190 V132 M126 108 C126 96 194 96 194 108 M160 108 V132",
+"w": 1
+}
+]
+}
+},
+"figdefs": {
+"edmond": {
+"f": [
+{
+"d": "M-5 -13 L-5.5 0 H-2 L-1 -13Z M1 -13 L2 0 H5.5 L5 -13Z",
+"c": "#3E3A33"
+},
+{
+"d": "M-6 -28 C-8 -22 -9 -15 -9 -11 H9 C9 -15 8 -22 6 -28 C3 -30 -3 -30 -6 -28Z",
+"c": "#3E4F6E"
+},
+{
+"d": "M-7.5 -26 L-9.5 -15 L-7.5 -14.5 L-5.5 -24Z M7.5 -26 L9.5 -15 L7.5 -14.5 L5.5 -24Z",
+"c": "#364560"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z",
+"c": "#D9B79A"
+},
+{
+"d": "M-9.5 -35.5 C-6 -37.5 6 -37.5 9.5 -35.5 C6 -34.2 -6 -34.2 -9.5 -35.5Z M-4.5 -36 C-4.5 -40.5 4.5 -40.5 4.5 -36Z",
+"c": "#2B2620"
+}
+],
+"l": [
+{
+"d": "M-6 -28 C-8 -22 -9 -15 -9 -11 H9 C9 -15 8 -22 6 -28 C3 -30 -3 -30 -6 -28Z M0 -28 V-12"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z"
+},
+{
+"d": "M-9.5 -35.5 C-6 -37.5 6 -37.5 9.5 -35.5 C6 -34.2 -6 -34.2 -9.5 -35.5Z M-4.5 -36 C-4.5 -40.5 4.5 -40.5 4.5 -36"
+},
+{
+"d": "M-5 -13 L-5.5 0 M5 -13 L5.5 0"
+}
+]
+},
+"faria": {
+"f": [
+{
+"d": "M-4.5 -12 L-5 0 H-2 L-1 -12Z M1 -12 L2 0 H5 L4.5 -12Z",
+"c": "#2A2622"
+},
+{
+"d": "M-6 -28 C-8 -20 -9 -10 -8 -6 H8 C9 -10 8 -20 6 -28 C3 -30 -3 -30 -6 -28Z",
+"c": "#3E3A33"
+},
+{
+"d": "M-7.5 -26 L-9.5 -15 L-7.5 -14.5 L-5.5 -24Z M7.5 -26 L9.5 -15 L7.5 -14.5 L5.5 -24Z",
+"c": "#2B2620"
+},
+{
+"d": "M8 -15 H14 V-9 H8Z",
+"c": "#4C3D2F"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z",
+"c": "#E8D6C0"
+},
+{
+"d": "M-7 -35.5 H7 V-34.3 H-7Z M-4 -35.5 V-43 H4 V-35.5Z",
+"c": "#1F1D1B"
+}
+],
+"l": [
+{
+"d": "M-6 -28 C-8 -20 -9 -10 -8 -6 H8 C9 -10 8 -20 6 -28 C3 -30 -3 -30 -6 -28Z"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z"
+},
+{
+"d": "M-7 -35.5 H7 M-4 -35.5 V-43 H4 V-35.5"
+},
+{
+"d": "M8 -15 H14 V-9 H8Z M10 -15 C10 -17 12 -17 12 -15"
+}
+]
+},
+"morrel": {
+"f": [
+{
+"d": "M-4.5 -12 L-5 0 H-2 L-1 -12Z M1 -12 L2 0 H5 L4.5 -12Z",
+"c": "#2A2622"
+},
+{
+"d": "M-6 -28 C-8 -20 -9 -10 -8 -6 H8 C9 -10 8 -20 6 -28 C3 -30 -3 -30 -6 -28Z",
+"c": "#6B5A47"
+},
+{
+"d": "M-7.5 -26 L-9.5 -15 L-7.5 -14.5 L-5.5 -24Z M7.5 -26 L9.5 -15 L7.5 -14.5 L5.5 -24Z",
+"c": "#5C4A3A"
+},
+{
+"d": "M8 -15 H14 V-9 H8Z",
+"c": "#4C3D2F"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z",
+"c": "#E0C2A8"
+},
+{
+"d": "M-7 -35.5 H7 V-34.3 H-7Z M-4 -35.5 V-43 H4 V-35.5Z",
+"c": "#1F1D1B"
+}
+],
+"l": [
+{
+"d": "M-6 -28 C-8 -20 -9 -10 -8 -6 H8 C9 -10 8 -20 6 -28 C3 -30 -3 -30 -6 -28Z"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z"
+},
+{
+"d": "M-7 -35.5 H7 M-4 -35.5 V-43 H4 V-35.5"
+},
+{
+"d": "M8 -15 H14 V-9 H8Z M10 -15 C10 -17 12 -17 12 -15"
+}
+]
+},
+"villefort": {
+"f": [
+{
+"d": "M-4.5 -12 L-5 0 H-2 L-1 -12Z M1 -12 L2 0 H5 L4.5 -12Z",
+"c": "#2A2622"
+},
+{
+"d": "M-6 -28 C-8 -20 -9 -10 -8 -6 H8 C9 -10 8 -20 6 -28 C3 -30 -3 -30 -6 -28Z",
+"c": "#1F1D1B"
+},
+{
+"d": "M-7.5 -26 L-9.5 -15 L-7.5 -14.5 L-5.5 -24Z M7.5 -26 L9.5 -15 L7.5 -14.5 L5.5 -24Z",
+"c": "#2A2622"
+},
+{
+"d": "M8 -15 H14 V-9 H8Z",
+"c": "#4C3D2F"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z",
+"c": "#E0C2A8"
+},
+{
+"d": "M-7 -35.5 H7 V-34.3 H-7Z M-4 -35.5 V-43 H4 V-35.5Z",
+"c": "#1F1D1B"
+}
+],
+"l": [
+{
+"d": "M-6 -28 C-8 -20 -9 -10 -8 -6 H8 C9 -10 8 -20 6 -28 C3 -30 -3 -30 -6 -28Z"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z"
+},
+{
+"d": "M-7 -35.5 H7 M-4 -35.5 V-43 H4 V-35.5"
+},
+{
+"d": "M8 -15 H14 V-9 H8Z M10 -15 C10 -17 12 -17 12 -15"
+}
+]
+},
+"mercedes": {
+"f": [
+{
+"d": "M-8 -30 L-7 -3 H-5 L-6 -30Z",
+"c": "#6B5A47"
+},
+{
+"d": "M-6 -24 C-8 -18 -7 -13 -6 -11 H6 C7 -13 7 -18 5 -24 C3 -26 -3 -26 -6 -24Z",
+"c": "#9E3B25"
+},
+{
+"d": "M-6 -12 H9 L10 -2 H-4Z",
+"c": "#7A3B2E"
+},
+{
+"d": "M-3.4 -28.5 a3.4 3.4 0 1 0 6.8 0 a3.4 3.4 0 1 0 -6.8 0Z",
+"c": "#E6D3BE"
+},
+{
+"d": "M-4.5 -29 C-4.5 -35 4.5 -35 4.5 -29 C3 -30.5 -3 -30.5 -4.5 -29Z",
+"c": "#EDE6D8"
+}
+],
+"l": [
+{
+"d": "M-12 0 C-4 3 6 3 13 -1 M-8 -30 L-7 -3",
+"w": 1.3,
+"c": "#4C3D2F"
+},
+{
+"d": "M-6 -24 C-8 -18 -7 -13 -6 -11 H6 C7 -13 7 -18 5 -24 C3 -26 -3 -26 -6 -24Z"
+},
+{
+"d": "M-6 -12 H9 L10 -2 H-4Z"
+},
+{
+"d": "M-3.4 -28.5 a3.4 3.4 0 1 0 6.8 0 a3.4 3.4 0 1 0 -6.8 0Z"
+},
+{
+"d": "M-4.5 -29 C-4.5 -35 4.5 -35 4.5 -29"
+}
+]
+},
+"danglars": {
+"f": [
+{
+"d": "M-6 -11 L-6.5 0 H-2.5 L-1.5 -11Z M1.5 -11 L2.5 0 H6.5 L6 -11Z",
+"c": "#3E3A33"
+},
+{
+"d": "M-8 -27 C-11 -21 -11 -14 -9 -10 H9 C11 -14 11 -21 8 -27 C4 -29.5 -4 -29.5 -8 -27Z",
+"c": "#3E3A33"
+},
+{
+"d": "M-6 -23 H6 L7.5 -9 H-7.5Z",
+"c": "#8C7B66"
+},
+{
+"d": "M-4 -32 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0Z",
+"c": "#D9B79A"
+}
+],
+"l": [
+{
+"d": "M-8 -27 C-11 -21 -11 -14 -9 -10 H9 C11 -14 11 -21 8 -27 C4 -29.5 -4 -29.5 -8 -27Z"
+},
+{
+"d": "M-6 -23 H6 L7.5 -9 H-7.5Z"
+},
+{
+"d": "M-4 -32 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0Z"
+}
+]
+},
+"fernand": {
+"f": [
+{
+"d": "M-5 -13 L-5.5 0 H-2 L-1 -13Z M1 -13 L2 0 H5.5 L5 -13Z",
+"c": "#3E3A33"
+},
+{
+"d": "M-6 -28 C-8 -22 -9 -15 -9 -11 H9 C9 -15 8 -22 6 -28 C3 -30 -3 -30 -6 -28Z",
+"c": "#5A6F49"
+},
+{
+"d": "M-7.5 -26 L-9.5 -15 L-7.5 -14.5 L-5.5 -24Z M7.5 -26 L9.5 -15 L7.5 -14.5 L5.5 -24Z",
+"c": "#3F5236"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z",
+"c": "#D9B79A"
+},
+{
+"d": "M-9.5 -35.5 C-6 -37.5 6 -37.5 9.5 -35.5 C6 -34.2 -6 -34.2 -9.5 -35.5Z M-4.5 -36 C-4.5 -40.5 4.5 -40.5 4.5 -36Z",
+"c": "#C8AE74"
+}
+],
+"l": [
+{
+"d": "M-6 -28 C-8 -22 -9 -15 -9 -11 H9 C9 -15 8 -22 6 -28 C3 -30 -3 -30 -6 -28Z M0 -28 V-12"
+},
+{
+"d": "M-3.8 -32.5 a3.8 3.8 0 1 0 7.6 0 a3.8 3.8 0 1 0 -7.6 0Z"
+},
+{
+"d": "M-9.5 -35.5 C-6 -37.5 6 -37.5 9.5 -35.5 C6 -34.2 -6 -34.2 -9.5 -35.5Z M-4.5 -36 C-4.5 -40.5 4.5 -40.5 4.5 -36"
+},
+{
+"d": "M-5 -13 L-5.5 0 M5 -13 L5.5 0"
+}
+]
+},
+"carceriere": {
+"f": [
+{
+"d": "M-5 -13 L-5.5 0 H-2 L-1 -13Z M1 -13 L2 0 H5.5 L5 -13Z",
+"c": "#E4DDCB"
+},
+{
+"d": "M-6 -28 C-8 -22 -8 -15 -7 -11 H7 C8 -15 8 -22 6 -28 C3 -30 -3 -30 -6 -28Z",
+"c": "#5C4A3A"
+},
+{
+"d": "M-7.5 -26 L-9.5 -15 L-7.5 -14.5 L-5.5 -24Z M7.5 -26 L9.5 -15 L7.5 -14.5 L5.5 -24Z",
+"c": "#4C3D2F"
+},
+{
+"d": "M-3.6 -32.5 a3.6 3.6 0 1 0 7.2 0 a3.6 3.6 0 1 0 -7.2 0Z",
+"c": "#D9B79A"
+},
+{
+"d": "M-4 -35.5 L-3.5 -43 H3.5 L4 -35.5Z M-5 -35.5 H6 L7 -34.5 H-5Z",
+"c": "#1F1D1B"
+}
+],
+"l": [
+{
+"d": "M-6 -28 C-8 -22 -8 -15 -7 -11 H7 C8 -15 8 -22 6 -28 C3 -30 -3 -30 -6 -28Z"
+},
+{
+"d": "M-3.6 -32.5 a3.6 3.6 0 1 0 7.2 0 a3.6 3.6 0 1 0 -7.2 0Z"
+},
+{
+"d": "M-4 -35.5 L-3.5 -43 H3.5 L4 -35.5"
+},
+{
+"d": "M-5 -27 L5 -14 M5 -27 L-5 -14",
+"w": 1.3,
+"c": "#F1ECDD"
+},
+{
+"d": "M-5 -13 L-5.5 0 M5 -13 L5.5 0"
+}
+]
+}
+},
+"hatch": {
+"#4C3D2F": [
+45,
+2.2,
+true,
+0.45
+],
+"#8C7B66": [
+45,
+3,
+false,
+0.35
+],
+"#9C978B": [
+30,
+3,
+false,
+0.35
+],
+"#8E897D": [
+30,
+2.6,
+false,
+0.4
+],
+"#6E6A60": [
+30,
+2,
+true,
+0.45
+],
+"#5A6F49": [
+60,
+2.8,
+false,
+0.38
+],
+"#3F5236": [
+60,
+2.2,
+true,
+0.45
+],
+"#BEA97F": [
+15,
+3.5,
+false,
+0.3
+],
+"#D9CAA4": [
+15,
+6,
+false,
+0.14
+],
+"#7E989A": [
+0,
+3,
+false,
+0.28
+],
+"#5F7B7E": [
+0,
+2.4,
+false,
+0.35
+],
+"#2B2620": [
+45,
+1.8,
+true,
+0.5
+],
+"#6B5A47": [
+45,
+2.6,
+false,
+0.4
+],
+"#A99B84": [
+90,
+4.5,
+false,
+0.22
+],
+"#7A6650": [
+45,
+2.6,
+false,
+0.4
+],
+"#5C4A3A": [
+80,
+2.2,
+false,
+0.45
+],
+"#3F4A33": [
+80,
+2.2,
+true,
+0.4
+],
+"#5E7049": [
+60,
+3,
+false,
+0.3
+],
+"#8A8F63": [
+70,
+3.5,
+false,
+0.3
+],
+"#6B8055": [
+60,
+2.6,
+false,
+0.38
+],
+"#C8BC9C": [
+15,
+4.5,
+false,
+0.2
+],
+"#B8AE96": [
+90,
+4.5,
+false,
+0.22
+],
+"#8C8A84": [
+90,
+2.5,
+false,
+0.3
+],
+"#9AA39A": [
+0,
+3,
+false,
+0.25
+],
+"#9C8462": [
+45,
+3,
+false,
+0.35
+],
+"sky": [
+0,
+5,
+false,
+0.16
+]
+},
+"phases": {
+"pomeriggio": {
+"sky": "#D9D6C3",
+"warm": "#E3CFA8",
+"over": [
+"#F3C77E",
+0.14
+]
+},
+"tramonto": {
+"sky": "#E6B28C",
+"warm": "#E9A97E",
+"over": [
+"#E07A4A",
+0.22
+]
+},
+"sera": {
+"sky": "#2E3A55",
+"warm": "#2E3A55",
+"window": "#2E3A55",
+"over": [
+"#E8A058",
+0.14
+]
+},
+"mattina": {
+"sky": "#D3E0E2",
+"warm": "#E2DCCB",
+"over": [
+"#BFD6E6",
+0.1
+]
+},
+"giorno": {
+"sky": null,
+"warm": null,
+"over": null
+},
+"notte": {
+"sky": "#2E3A55",
+"warm": "#2E3A55",
+"window": "#1E2638",
+"over": [
+"#1B2440",
+0.62
+]
+}
+},
+"skyColors": {
+"sky": "#CDD6D3",
+"warm": "#DCCFB4",
+"window": "#7F9A9C"
+},
+"sceneFor": [],
+"phaseRules": [
+{
+"if": "loc=='villefort' || loc=='mare'",
+"p": "notte"
+},
+{
+"if": "loc=='riserva'",
+"p": "tramonto"
+},
+{
+"p": "giorno"
+}
+],
+"figures": {
+"porto": [
+{
+"k": "edmond",
+"x": 90,
+"y": 152,
+"s": 0.7
+},
+{
+"k": "morrel",
+"x": 140,
+"y": 152,
+"s": 0.72,
+"flip": true
+},
+{
+"k": "danglars",
+"x": 300,
+"y": 152,
+"s": 0.66,
+"flip": true
+}
+],
+"riserva": [
+{
+"k": "edmond",
+"x": 130,
+"y": 152,
+"s": 0.7
+},
+{
+"k": "mercedes",
+"x": 170,
+"y": 152,
+"s": 0.68,
+"flip": true
+},
+{
+"k": "fernand",
+"x": 296,
+"y": 152,
+"s": 0.7,
+"flip": true
+}
+],
+"villefort": [
+{
+"k": "edmond",
+"x": 80,
+"y": 154,
+"s": 0.78
+},
+{
+"k": "villefort",
+"x": 170,
+"y": 154,
+"s": 0.8,
+"flip": true
+}
+],
+"cella": [
+{
+"k": "edmond",
+"x": 180,
+"y": 154,
+"s": 0.78
+}
+],
+"faria": [
+{
+"k": "edmond",
+"x": 60,
+"y": 154,
+"s": 0.78
+},
+{
+"k": "faria",
+"x": 170,
+"y": 154,
+"s": 0.78,
+"flip": true,
+"if": "!fariaDead"
+}
+],
+"isola": [
+{
+"k": "edmond",
+"x": 100,
+"y": 120,
+"s": 0.5
+}
+],
+"grotta": [
+{
+"k": "edmond",
+"x": 100,
+"y": 154,
+"s": 0.78
+}
+]
+},
+"anims": {
+"villefort": [
+{
+"t": "glow",
+"d": "M266 120 C268 110 274 112 276 104 C278 112 284 110 286 120Z",
+"c": "#F2C14E",
+"o": [
+0.3,
+0.8
+],
+"dur": 1.2
+}
+],
+"faria": [
+{
+"t": "glow",
+"d": "M114 98 a6 8 0 1 0 12 0 a6 8 0 1 0 -12 0Z",
+"c": "#F2C14E",
+"o": [
+0.2,
+0.6
+],
+"dur": 1.6,
+"if": "!fariaDead"
+}
+],
+"grotta": [
+{
+"t": "glow",
+"d": "M72 70 a8 10 0 1 0 16 0 a8 10 0 1 0 -16 0Z",
+"c": "#F2C14E",
+"o": [
+0.3,
+0.7
+],
+"dur": 1
+}
+],
+"porto": [
+{
+"t": "fly",
+"x": 20,
+"y": 30,
+"dx": 260,
+"dur": 18
+}
+],
+"mare": [
+{
+"t": "drift",
+"d": "M20 110 c10 -3 20 3 30 0",
+"dx": 10,
+"dur": 4,
+"c": "#8C8A84"
+}
+]
+},
+"lights": {
+"villefort": [
+{
+"d": "M216 110 a60 40 0 1 0 120 0 a60 40 0 1 0 -120 0Z",
+"c": "#F2C14E",
+"sx": 276,
+"sy": 110,
+"op": 0.14
+}
+],
+"faria": [
+{
+"d": "M70 100 a50 36 0 1 0 100 0 a50 36 0 1 0 -100 0Z",
+"c": "#F2C14E",
+"sx": 120,
+"sy": 100,
+"op": 0.12
+}
+],
+"grotta": [
+{
+"d": "M-40 80 a120 60 0 1 0 240 0 a120 60 0 1 0 -240 0Z",
+"c": "#F2C14E",
+"sx": 80,
+"sy": 80,
+"op": 0.14
+}
+]
+},
+"bg": "#F1EBDD",
+"images": {
+"porto": [
+{
+"src": "img/porto.webp"
+}
+],
+"riserva": [
+{
+"src": "img/riserva.webp"
+}
+],
+"villefort": [
+{
+"src": "img/villefort-cenere.webp",
+"if": "letterGiven"
+},
+{
+"src": "img/villefort.webp"
+}
+],
+"cella": [
+{
+"src": "img/cella-cunicolo.webp",
+"if": "tunnel"
+},
+{
+"src": "img/cella-anni.webp",
+"if": "scratch"
+},
+{
+"src": "img/cella.webp"
+}
+],
+"faria": [
+{
+"src": "img/faria-morto.webp",
+"if": "fariaDead"
+},
+{
+"src": "img/faria.webp"
+}
+],
+"mare": [
+{
+"src": "img/mare-libero.webp",
+"if": "free"
+},
+{
+"src": "img/mare-sacco.webp"
+}
+],
+"isola": [
+{
+"src": "img/isola-aperta.webp",
+"if": "opened"
+},
+{
+"src": "img/isola.webp"
+}
+],
+"grotta": [
+{
+"src": "img/grotta-tesoro.webp",
+"if": "ended"
+},
+{
+"src": "img/grotta.webp"
+}
+]
+},
+"sounds": {
+"porto": {
+"sea": 0.4,
+"wind": 0.3
+},
+"riserva": {
+"sea": 0.3
+},
+"villefort": {
+"fire": 0.5
+},
+"cella": {
+"sea": 0.3,
+"wind": 0.2
+},
+"faria": {
+"sea": 0.2,
+"fire": 0.1
+},
+"mare": {
+"sea": 0.9,
+"wind": 0.5
+},
+"isola": {
+"sea": 0.5,
+"wind": 0.5
+},
+"grotta": {
+"fire": 0.3
+}
+},
+"moments": {
+"arresto": {
+"scene": "villefort",
+"dur": 1200,
+"shake": 400
+},
+"lettera": {
+"scene": "villefort",
+"dur": 1800,
+"glow": [
+276,
+110,
+30
+]
+},
+"cunicolo": {
+"scene": "cella",
+"dur": 1800,
+"shake": 600,
+"dust": [
+110,
+104,
+24
+],
+"fade": [
+"buco"
+]
+},
+"faria": {
+"scene": "faria",
+"dur": 2000
+},
+"mare": {
+"scene": "mare",
+"dur": 1600,
+"flash": true
+},
+"roccia": {
+"scene": "isola",
+"dur": 2200,
+"shake": 700,
+"dust": [
+230,
+64,
+40
+],
+"flash": true
+},
+"tesoro": {
+"scene": "grotta",
+"dur": 2400,
+"fade": [
+"oro"
+],
+"glow": [
+160,
+104,
+60
+]
+}
+},
+"map": {
+"title": "Da Marsiglia a Montecristo",
+"shapes": [
+{
+"d": "M0 0 H320 V40 C280 44 240 36 200 46 C170 54 140 50 110 58 C80 66 50 60 20 70 L0 72Z",
+"fill": "#E4D6B2"
+},
+{
+"d": "M60 92 c4 -6 12 -6 14 0 c-2 6 -10 6 -14 0Z",
+"fill": "#B8AE96"
+},
+{
+"d": "M250 150 c6 -14 26 -16 30 -2 c4 14 -24 18 -30 2Z",
+"fill": "#E4D6B2"
+},
+{
+"d": "M290 60 C300 80 296 120 280 140",
+"stroke": "#9C8462",
+"w": 0.6,
+"dash": true
+}
+],
+"labels": [
+{
+"t": "Provenza",
+"x": 30,
+"y": 24,
+"size": 10,
+"italic": true
+},
+{
+"t": "Mar Mediterraneo",
+"x": 110,
+"y": 120,
+"size": 10,
+"italic": true
+},
+{
+"t": "Castello d’If",
+"x": 52,
+"y": 108,
+"size": 8,
+"italic": true
+}
+],
+"stops": [
+{
+"place": "porto",
+"x": 40,
+"y": 62,
+"label": "Marsiglia"
+},
+{
+"place": "riserva",
+"x": 22,
+"y": 66,
+"label": "La Riserva"
+},
+{
+"place": "villefort",
+"x": 46,
+"y": 54,
+"label": "Palazzo di giustizia"
+},
+{
+"place": "cella",
+"x": 64,
+"y": 92,
+"label": "Cella 34"
+},
+{
+"place": "faria",
+"x": 70,
+"y": 88,
+"label": "Cella 27"
+},
+{
+"place": "mare",
+"x": 90,
+"y": 100,
+"label": "Il mare"
+},
+{
+"place": "isola",
+"x": 266,
+"y": 150,
+"label": "Montecristo"
+},
+{
+"place": "grotta",
+"x": 272,
+"y": 158,
+"label": "La grotta"
+}
+],
+"legs": [
+[
+"porto",
+"riserva",
+"walk"
+],
+[
+"riserva",
+"villefort",
+"walk"
+],
+[
+"villefort",
+"cella",
+"sea"
+],
+[
+"cella",
+"faria",
+"under"
+],
+[
+"faria",
+"mare",
+"sea"
+],
+[
+"mare",
+"isola",
+"sea",
+"M90 100 C150 120 210 150 266 150"
+],
+[
+"isola",
+"grotta",
+"under"
+]
+]
+},
+"notes": [
+{
+"scene": "porto",
+"t": "«Al signor Noirtier, rue Coq-Héron, Parigi.» Una lettera che non ho mai aperto."
+},
+{
+"scene": "riserva",
+"t": "La festa di fidanzamento, il bicchiere alzato, i tre colpi alla porta. Fernand era già sparito."
+},
+{
+"scene": "villefort",
+"t": "Villefort ha letto il nome sulla busta ed è impallidito. Poi ha bruciato la lettera, e me con lei."
+},
+{
+"scene": "cella",
+"t": "Tre colpi nel muro, piano, quando le guardie erano lontane. E tre colpi in risposta."
+},
+{
+"scene": "cella",
+"t": "«Sono l’abate Faria. Mi sono sbagliato di quindici gradi.»"
+},
+{
+"scene": "faria",
+"t": "Danglars ha scritto con la sinistra, Fernand ha imbucato, Caderousse ha guardato. Villefort ha chiuso la porta."
+},
+{
+"scene": "faria",
+"t": "«Aspettare e sperare.» Il terzo attacco, all’alba."
+},
+{
+"scene": "mare",
+"t": "Il cimitero del castello d’If è il mare. E il mare mi ha restituito."
+},
+{
+"scene": "grotta",
+"t": "La ventesima roccia dalla piccola cala dell’est. Nell’angolo più lontano della seconda grotta."
+}
+]
+}
+}
