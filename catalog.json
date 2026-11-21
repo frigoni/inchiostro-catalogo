@@ -5,11 +5,11 @@
    "id": "scarabeo", 
    "title": "Lo scarabeo d’oro", 
    "author": "Edgar Allan Poe", 
-   "version": 5,
+   "version": 6,
    "difficulty": "medio", 
    "status": "available", 
    "package": "scarabeo.zip", 
-   "size": 32266
+   "size": 32297
   },
   {
    "id": "musgrave",
